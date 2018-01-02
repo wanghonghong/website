@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>各科目答题综合数据</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/vendor_c126d28.css" />
+    <link rel="stylesheet" href="static/main_771e693.css" />
+    <link rel="stylesheet" href="../../assets/css/mdata.css" />
+</head>
+<body class="p-answer">
+	<div class="viewport ui-layout">
+		<div class="ui-subject">
+			<div class="text">
+				各科目答题综合数据
+			</div>
+		</div>
+		<div class="ui-box ui-row">
+			<!-- ui-average -->
+			<div class="flex-item ui-layout ui-average">
+				<div class="ui-title">各题型平均正确率</div>
+				<div class="charts-average flex-item" id="charts_average">
+				</div>
+			</div>
+			<!-- /ui-average -->
+			<!-- ui-average-percent -->
+			<div class="ui-layout ui-average-percent">
+				<div class="charts-average flex-item" id="charts_average_percent">
+				</div>
+			</div>
+			<!-- /ui-average-percent -->
+		</div>
+		<div class="ui-row ui-row-sec ui-single-charts">
+			<div class="ui-box ui-layout flex-item ui-single">
+				<div class="ui-title">各科单选题平均正确率</div>
+				<div class="charts-single flex-item" id="charts_single"></div>
+				<ul class="ui-stat-list"></ul>
+			</div>
+			<div class="ui-box ui-layout flex-item ui-multiple">
+				<div class="ui-title">各科多选题平均正确率</div>
+				<div class="charts-multiple flex-item" id="charts_multiple"></div>
+				<ul class="ui-stat-list"></ul>
+			</div>
+			<div class="ui-box ui-layout flex-item ui-judge">
+				<div class="ui-title">各科判断题平均正确率</div>
+				<div class="charts-judge flex-item" id="charts_judge"></div>
+				<ul class="ui-stat-list"></ul>
+			</div>
+		</div>
+	</div>
+	<div class="swipe-control">
+		<a href="address.html" class="swipe-prev">&lt;</a>
+		<a href="exam.html" class="swipe-next">&gt;</a>
+	</div>
+<script type="text/javascript" src="../public/js/vendors_da1765c.js"></script>
+<script type="text/javascript" src="../public/js/echarts_09eb663.js"></script>
+<script type="text/javascript" src="../public/js/mock_3255dbc.js"></script>
+<script type="text/javascript" src="../public/js/main_68d020e.js"></script>
+<script>
+	var params = window.location.search;
+	if(params.indexOf('full')!=-1) {
+		$(document.body).addClass('full')
+	}
+		require('display/answer')
+</script>
+</body>
+</html>

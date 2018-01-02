@@ -1,0 +1,61 @@
+.btn{display:inline-block;text-align:center;line-height:1;padding:9px 15px;border-radius:4px;color:#475669;border:1px solid #bfcbd9;background-color:#FFF;cursor:pointer}
+.btn:hover{color:#20A0FF;border-color:#20A0FF}
+.btn:active{color:#0087ec;border-color:#0087ec}
+.btn.disabled,.btn .btn[disabled]{color:#C0CCDA;cursor:not-allowed;background-color:#EFF2F7;border-color:#E5E9F2}
+.btn.disabled:hover,.btn .btn[disabled]:hover{color:#C0CCDA;background-color:#EFF2F7;border-color:#E5E9F2}
+.btn.disabled:active,.btn .btn[disabled]:active{color:#C0CCDA;background-color:#EFF2F7;border-color:#E5E9F2}
+.btn.info{color:#50bfff;border-color:#50bfff}
+.btn.info:hover{color:#6ac8ff;border-color:#6ac8ff}
+.btn.info:active{color:#36b6ff;border-color:#36b6ff}
+.btn.primary{color:#20A0FF;border-color:#20A0FF}
+.btn.primary:hover{color:#3aabff;border-color:#3aabff}
+.btn.primary:active{color:#0695ff;border-color:#0695ff}
+.btn.danger{color:#FF4949;border-color:#FF4949}
+.btn.danger:hover{color:#ff6262;border-color:#ff6262}
+.btn.danger:active{color:#ff2f2f;border-color:#ff2f2f}
+.btn.warn{color:#F7BA2A;border-color:#F7BA2A}
+.btn.warn:hover{color:#f8c243;border-color:#f8c243}
+.btn.warn:active{color:#f6b211;border-color:#f6b211}
+.btn.success{color:#13CE66;border-color:#13CE66}
+.btn.success:hover{color:#14d76b;border-color:#14d76b}
+.btn.success:active{color:#12c561;border-color:#12c561}
+.btn.green{color:#23d1c1;border-color:#23d1c1}
+.btn.green:hover{color:#31ddcd;border-color:#31ddcd}
+.btn.green:active{color:#1fbbad;border-color:#1fbbad}
+.btn-info{color:#FFF;border-color:#50bfff;background-color:#50bfff}
+.btn-info:hover{color:#FFF;background-color:#6ac8ff;border-color:#6ac8ff}
+.btn-info:active{color:#FFF;background-color:#36b6ff;border-color:#36b6ff}
+.btn-info.is-plain{color:#475669;border-color:#bfcbd9;background:#FFF}
+.btn-info.is-plain:hover{color:#6ac8ff;background-color:#FFF;border-color:#6ac8ff}
+.btn-info.is-plain:active{color:#36b6ff;background-color:#FFF;border-color:#36b6ff}
+.btn-primary{color:#FFF;border-color:#20A0FF;background-color:#20A0FF}
+.btn-primary:hover{color:#FFF;background-color:#3aabff;border-color:#3aabff}
+.btn-primary:active{color:#FFF;background-color:#0695ff;border-color:#0695ff}
+.btn-primary.is-plain{color:#475669;border-color:#bfcbd9;background:#FFF}
+.btn-primary.is-plain:hover{color:#3aabff;background-color:#FFF;border-color:#3aabff}
+.btn-primary.is-plain:active{color:#0695ff;background-color:#FFF;border-color:#0695ff}
+.btn-danger{color:#FFF;border-color:#FF4949;background-color:#FF4949}
+.btn-danger:hover{color:#FFF;background-color:#ff6262;border-color:#ff6262}
+.btn-danger:active{color:#FFF;background-color:#ff2f2f;border-color:#ff2f2f}
+.btn-danger.is-plain{color:#475669;border-color:#bfcbd9;background:#FFF}
+.btn-danger.is-plain:hover{color:#ff6262;background-color:#FFF;border-color:#ff6262}
+.btn-danger.is-plain:active{color:#ff2f2f;background-color:#FFF;border-color:#ff2f2f}
+.btn-warn{color:#FFF;border-color:#F7BA2A;background-color:#F7BA2A}
+.btn-warn:hover{color:#FFF;background-color:#f8c243;border-color:#f8c243}
+.btn-warn:active{color:#FFF;background-color:#f6b211;border-color:#f6b211}
+.btn-warn.is-plain{color:#475669;border-color:#bfcbd9;background:#FFF}
+.btn-warn.is-plain:hover{color:#f8c243;background-color:#FFF;border-color:#f8c243}
+.btn-warn.is-plain:active{color:#f6b211;background-color:#FFF;border-color:#f6b211}
+.btn-success{color:#FFF;border-color:#13CE66;background-color:#13CE66}
+.btn-success:hover{color:#FFF;background-color:#14d76b;border-color:#14d76b}
+.btn-success:active{color:#FFF;background-color:#12c561;border-color:#12c561}
+.btn-success.is-plain{color:#475669;border-color:#bfcbd9;background:#FFF}
+.btn-success.is-plain:hover{color:#14d76b;background-color:#FFF;border-color:#14d76b}
+.btn-success.is-plain:active{color:#12c561;background-color:#FFF;border-color:#12c561}
+.btn-green{color:#FFF;border-color:#23d1c1;background-color:#23d1c1}
+.btn-green:hover{color:#FFF;background-color:#31ddcd;border-color:#31ddcd}
+.btn-green:active{color:#FFF;background-color:#1fbbad;border-color:#1fbbad}
+.btn-green.is-plain{color:#475669;border-color:#bfcbd9;background:#FFF}
+.btn-green.is-plain:hover{color:#31ddcd;background-color:#FFF;border-color:#31ddcd}
+.btn-green.is-plain:active{color:#1fbbad;background-color:#FFF;border-color:#1fbbad}
+.btn-large{font-size:1.25em;padding:12px 25px}

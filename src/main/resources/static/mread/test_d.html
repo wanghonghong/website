@@ -1,0 +1,406 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	
+	<!-- header includes -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>网络综合设计实验 -试卷D</title>
+	<!-- <base href=""/> -->
+	<link href="common_files/css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="common_files/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/course.css" rel="stylesheet" type="text/css" />
+
+	<script>var video_root = "video/", columnid="2916";</script>
+	<script src="common_files/js/jquery-1.9.1.min.js"></script>
+	<script src="common_files/js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
+	<script src="common_files/js/json.js"></script>
+	<script src="common_files/js/common.js"></script>
+	<script src="js/course.js"></script>
+	<script src="common_files/js/bw_data.js"></script>
+	<script src="common_files/js/template.js"></script>
+	<script src="common_files/js/pinyin.js"></script>
+	
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+</head>
+<body class="introduction-bg ">
+	
+
+<!-- 通用头部 -->
+<div class="header header_in">
+	<div class="header_scope">
+		<div class="logo"></div>	
+		<div class="more"></div>
+		<div class="nav_container">
+			
+
+<!-- 通用头部 -->
+
+
+
+
+<ul class="nav">
+	<li id="nav_0"><a href="/">返回主页</a></li>
+	<li id="nav0"><a href="index.html">课程首页</a></li>
+	
+
+
+
+		<li id="nav0">
+			<a href="ke_cheng_jie_shao.html">课程信息</a>
+		</li>
+	
+		<li id="nav1">
+			<a href="jiao_shi_dao_yan.html">课程导学</a>
+		</li>
+	
+		<li id="nav2">
+			<a href="chapter_1_1.html">课程学习</a>
+		</li>
+	
+		<li id="nav3">
+			<a href="test_a.html">课程自测</a>
+		</li>
+	
+		<!--<li id="nav4">
+			<a href="zhuan_jia_jiang_zuo.html">拓展资源</a>
+		</li>-->
+	
+</ul>
+
+
+		</div>	
+	</div>	
+</div>
+
+
+
+
+
+
+	<div class="content">
+		<div class="scope">
+			<ul class="secBarTab">
+				
+
+					<li><a href="test_a.html">试卷A</a></li>
+				
+					<li><a href="test_b.html">试卷B</a></li>
+				
+					<li><a href="test_c.html">试卷C</a></li>
+				
+					<li><a href="test_d.html">试卷D</a></li>
+				
+			</ul>
+			<div class="t_topbox">
+				<div class="t_ta">
+					<span id="test_info"></span>
+				</div>
+				<div class="t_tb">
+					<span class="lf_shadow"></span>
+					<span class="rt_shadow"></span>
+				</div>
+			</div>
+			<script type="text/javascript">
+
+			    //初始时间
+			    var time = 0;
+			    var countTimer;
+			    $(document).ready(function(){
+			    	countTimer = setInterval(function(){
+				      time++;
+				      var m = parseInt(time/60);
+				      var s = time%60;
+				      $("#count_down").find("b").empty().html((m<10?("0"+m):m) +":" +(s<10?("0"+s):s));
+				    },1000);
+			    });
+
+
+			    function stopCount(){
+			    	clearInterval(countTimer);
+			    }
+
+		  </script>
+		  <div class="textBox">
+			  <div class="test_main">
+					<div class="inner">
+						<div class="test_d">
+							<div class="bw_exam" data-config="time:120">
+	<div class="bw_question_block" data-config="{type:0,score:20}">
+		<div class="bw_block_title">
+			{2}实验设计
+		</div>
+		<div class="bw_question" data-config="{ans:0}">
+			<div class="bw_ques">
+				<p>
+					实验四---网站原型设计
+				</p>
+				<p>
+					实验目的：
+				</p>
+				<p>
+					学习原型设计的基本方法，掌握交互和视觉设计原则。
+				</p>
+				<p>
+					实验内容与要求：
+				</p>
+				<p>
+					实验要求：
+				</p>
+				<p>
+					1、能够利用网站原型设计的基本方法进行网站原型设计；掌握几种基本的网站原型设计方法。
+				</p>
+				<p>
+					2、掌握交互设计和视觉设计的原则，熟练使用原型设计工具——AXURE
+				</p>
+				<p>
+					实验内容：
+				</p>
+				<p>
+					任务：学会使用AXURE设计基本的原型网站
+				</p>
+				<p>
+					目的：熟悉原型设计工具——AXURE
+				</p>
+			</div>
+			<div class="bw_ans">
+				1. 第一步，按照TAB切换原理，我们准备好3个按钮和3个内容区，并为三个控件命名（控件A、控件B、控件C），如下图：&nbsp;
+				<p>
+					<img src="upload_files/2916/clip_image002_1410764878207626.png?294" onerror="top.reloadImg(this,'upload_files/2916/clip_image002_1410764878207626.png')" height="141" width="427" />
+				</p>
+				<p>
+					注：图中右侧红圈里面的名字就是控件的名字。
+				</p>
+				<p>
+					第二步，我们为控件设定“被选中”和“没被选中”两种状态，其中“没被选中”的状态为默认状态，“被选中状态”设置方式如下：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image004_1410764878208188.png?375" onerror="top.reloadImg(this,'upload_files/2916/clip_image004_1410764878208188.png')" height="171" width="427" />
+				</p>
+				<p>
+					第三步，我们为内容区设定“显示”和“不显示”两种状态，并为三个内容区命名（内容A、内容B、内容C）：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image006_1410764878208537.png?788" onerror="top.reloadImg(this,'upload_files/2916/clip_image006_1410764878208537.png')" height="220" width="427" />
+				</p>
+				<p>
+					好了，准备完毕，下面要做的就是设置交互：
+				</p>
+				<p>
+					点击“控件A”： 将“控件A”变成“被选中”状态，将“控件B”和“控件C”变成“没被选中”状态； 显示“内容A”，隐藏“内容B”和“内容C”。
+				</p>
+				<p>
+					点击“控件B”： 将“控件B”变成“被选中”状态，将“控件A”和“控件C”变成“没被选中”状态； 显示“内容B”，隐藏“内容A”和“内容C”。
+				</p>
+				<p>
+					点击“控件C”： 将“控件C”变成“被选中”状态，将“控件A”和“控件B”变成“没被选中”状态； 显示“内容C”，隐藏“内容A”和“内容B”。
+				</p>
+				<p>
+					具体实现方式（以点击“控件A”为例）：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image008_1410764878208707.png?380" onerror="top.reloadImg(this,'upload_files/2916/clip_image008_1410764878208707.png')" height="131" width="427" />
+				</p>
+				<p>
+					双击onclick会出现下面的窗口：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image010_1410764878208676.png?641" onerror="top.reloadImg(this,'upload_files/2916/clip_image010_1410764878208676.png')" height="306" width="427" />
+				</p>
+				<p>
+					点击左侧的“显示面板”，并在最右侧勾选需要显示的面板“内容A”：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image012_1410764878209619.png?209" onerror="top.reloadImg(this,'upload_files/2916/clip_image012_1410764878209619.png')" height="306" width="427" />
+				</p>
+				<p>
+					点击左侧的“隐藏面板”，并在最右侧勾选需要显示的面板“内容B”和“内容C”：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image014_1410764878209198.png?875" onerror="top.reloadImg(this,'upload_files/2916/clip_image014_1410764878209198.png')" height="306" width="427" />
+				</p>
+				<p>
+					点击左侧的“将组件设置为选定状态”，并在最右侧勾选 “控件A”、“控件B”和“控件C”：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image016_1410764878209818.png?215" onerror="top.reloadImg(this,'upload_files/2916/clip_image016_1410764878209818.png')" height="306" width="427" />
+				</p>
+				<p>
+					在右下角设定“控件A”的“Select the value”值为“selected”、“控件B”和“控件C”为“default”：
+				</p>
+				<p>
+					2．
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image018_1410764878210467.png?742" onerror="top.reloadImg(this,'upload_files/2916/clip_image018_1410764878210467.png')" height="306" width="427" />
+				</p>
+				<p>
+					设定完毕，同理将另外两个控件也设置好。
+				</p>
+				<p>
+					完成后将三个内容区放到同一位置，同时将默认不显示的两个内容区预设为“隐藏”：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image020_1410764878210778.png?931" onerror="top.reloadImg(this,'upload_files/2916/clip_image020_1410764878210778.png')" height="250" width="427" />
+				</p>
+				<p>
+					最后设置默认打开页面时“控件A”为“被选中”状态：
+				</p>
+				<p>
+					<img src="upload_files/2916/clip_image022_1410764878210464.png?468" onerror="top.reloadImg(this,'upload_files/2916/clip_image022_1410764878210464.png')" height="364" width="427" />
+				</p>
+				<p>
+					TAB标签切换制作到此结束。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+							<script>var exam = bw.getExamData();
+							$("#test_info").html("本套测试题共有"+ exam.blocks.length +"个部分，"+ exam.count +"道题。");
+							//console.log(exam);</script>
+							<script id="js_tpl_1" type="text/html">
+								<ul class="old_ul">
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<li><%= exam.blocks[i].title.replace(/（.*?）/,'').replace(/\(.*?\)/,'') %></li>
+									<% } %>
+								</ul>
+
+								<div>
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<div class='tab'>
+											<h1><%= "一二三四五六七".substr(i, 1) %>、<%= exam.blocks[i].title %></h1>
+
+
+											<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+												<div class='questionbox' data-block-index='<%= i %>' data-ques-index='<%= n %>' data-type='<%= exam.blocks[i].type %>'>
+													<div class='question f-cb'> <!-- begin question -->
+														<div class='questionPos'><%= exam.index() %></div>
+														<div class='questionCon'><%= exam.blocks[i].questions[n].ques %></div>	
+													</div><!-- end question -->
+
+
+													<% if(exam.blocks[i].type == XUAN_ZE){ %>
+														<div class='question_choice'>
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m ++){ %>
+																	<label for="ans_<%= i %>_<%= n %>_<%= m %>">
+																		<li class='f-cb'>
+																			<div class='optionPos'><%= "ABCDEFG".substr(m, 1) %></div>
+																			<div class='optionCon'><%= exam.blocks[i].questions[n].ans[m] %></div>
+																		</li>
+																	</label>
+																<% } %>
+															</ul>
+														</div><!-- end question_choice -->
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "ABCDEFG".substr(m, 1) %>">
+																		<label for=""><%= "ABCDEFG".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>													
+													<% } %>
+
+													<% if(exam.blocks[i].type == PAN_DUAN){ %>
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < ['√','×'].length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "√×".substr(m, 1) %>">
+																		<label for=""><%= "√×".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>
+													<% } %>
+
+													<% if(exam.blocks[i].type == WEN_DA){ %>
+														<div class="select_choice f-cb">
+															<textarea></textarea>
+														</div>
+													<% } %>
+												</div><!-- end questionbox -->
+											<% } %>
+										</div>
+									<% } %>	<!-- end blocks -->
+								</div>
+							</script><script>document.write(template.render('js_tpl_1'));</script>
+							<script type="text/javascript">
+								$(".old_ul").appendTo(".t_ta");
+							</script>
+						</div>
+					</div>
+				</div>
+				<script>exam.idx = 1;</script>
+				<script id="js_tpl_2" type="text/html">
+			  	<div class="test_sidelist">
+						<div class="inner">
+							<p id="count_down">
+							  已用时：
+							  <b>00:00</b>
+							</p>
+							<ul>
+								<% for(var i=0; i<exam.blocks.length; i++){ %>
+								  <li class="li_fi">
+								    <a href="###"><%= exam.blocks[i].title %></a>
+								    <ul>
+								    	<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+								      	<li class="white question_num  question_num_<%= i %>_<%= n %>"><a href="###"><%= exam.index() %></a></li>
+								      <% } %>
+								    </ul>
+								  </li>
+							  <% } %>
+							</ul>
+							<p class="sub_btn">
+							  <input type="button" class="button white submit" value="提交" onclick="stopCount();exam.check()">
+							  <input type="button" class="button white reset" value="重置" onclick="window.location.reload()">	
+							</p>
+						</div>
+		 			</div>
+		 		</script><script>document.write(template.render('js_tpl_2'));</script>
+		 	</div>
+		</div>
+	</div>
+
+	
+
+<!-- 页脚内容 -->
+<div class="footer">
+	<p>&copy 2014-2017 <a href="http://www.zznet.info/" target="_blank"> 卓智网络科技有限公司</a> 版权所有</p>
+</div>
+	<div class="tool">
+	<ul class="toolpack">
+		<li><a href="###">信息反馈</a></li>
+		<li><a href="dictionary.html">课程词典</a></li>
+		<li><a href="###">课程笔记</a></li>
+		<li><a href="###">课程书签</a></li>
+	</ul>
+</div>
+	<a href="#" class="top">TOP</a>
+</body>
+</html>
+
+
+
+
+
+
+

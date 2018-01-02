@@ -1,0 +1,954 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	
+	<!-- header includes -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>网络综合设计实验 -第四节 信息架构体系</title>
+	<!-- <base href=""/> -->
+	<link href="common_files/css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="common_files/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/course.css" rel="stylesheet" type="text/css" />
+
+	<script>var video_root = "video/", columnid="2903";</script>
+	<script src="common_files/js/jquery-1.9.1.min.js"></script>
+	<script src="common_files/js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
+	<script src="common_files/js/json.js"></script>
+	<script src="common_files/js/common.js"></script>
+	<script src="js/course.js"></script>
+	<script src="common_files/js/bw_data.js"></script>
+	<script src="common_files/js/template.js"></script>
+	<script src="common_files/js/pinyin.js"></script>
+	
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+</head>
+<body class="introduction-bg ">
+	
+
+<!-- 通用头部 -->
+<div class="header header_in">
+	<div class="header_scope">
+		<div class="logo"></div>	
+		<div class="more"></div>
+		<div class="nav_container">
+			
+
+<!-- 通用头部 -->
+
+
+
+
+<ul class="nav">
+	<li id="nav0"><a href="/">返回主页</a></li>
+	<li id="nav0"><a href="index.html">课程首页</a></li>
+	
+
+
+
+		<li id="nav0">
+			<a href="ke_cheng_jie_shao.html">课程信息</a>
+		</li>
+	
+		<li id="nav1">
+			<a href="jiao_shi_dao_yan.html">课程导学</a>
+		</li>
+	
+		<li id="nav2">
+			<a href="chapter_1_1.html">课程学习</a>
+		</li>
+	
+		<li id="nav3">
+			<a href="test_a.html">课程自测</a>
+		</li>
+	
+		<!--<li id="nav4">
+			<a href="zhuan_jia_jiang_zuo.html">拓展资源</a>
+		</li>-->
+	
+</ul>
+
+
+		</div>	
+	</div>	
+</div>
+
+
+
+
+
+
+
+	<div class="content">
+		<div class="scope">
+			<!-- <img src="images/style2898.png" class="topimg"> -->
+			<img src="images/c_bg.png" class="topimg">
+			<div class="study">
+				<div class="study_box ke-content">
+					<div class="inner">
+						<div class="route_top">
+							<span class="route">课程学习 > <i class="route_chapter_name">第二章 网站信息架构设计</i></span>
+							<span class="route_name">第四节 信息架构体系</span>
+						</div>
+						<div class="study_main">
+
+							<div class="">
+								
+
+																<p>
+	概念
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_151.png" title="" data-bw-attr="%7B%22width%22%3A%22%22%2C%22height%22%3A%22200%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_151.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_151.png%22%2C%22effect%22%3A%221%22%7D" height="200" width="110" /> 
+</p>
+<h2>
+	组织系统
+</h2>
+<p>
+	定义内容条目之间共有的特性，而且会影响这些条目的逻辑分组方式。
+</p>
+<p>
+	精确性组织体系——按字母顺序、按年表、按地理位置
+</p>
+<p>
+	模糊性组织体系——按主题、按任务、按用户、按<span class='show_key' data-wordid='2417' data-des="%3cp%3e%0a%09%09%09%09%09%u8f6f%u4ef6%u9690%u55bb%u7684%u672c%u8d28%u662f%u4e00%u79cd%u8ba4%u77e5%u9690%u55bb%u3002%u6211%u4eec%u53ef%u4ee5%u901a%u8fc7%u5728%u65e5%u5e38%u751f%u6d3b%u4e2d%u65e0%u610f%u8bc6%u83b7%u5f97%u7684%u57fa%u672c%u9690%u55bb%u7cfb%u7edf%uff0c%u5728%u8f6f%u4ef6%u5f00%u53d1%u8fc7%u7a0b%u4e2d%uff0c%u53d7%u5230%u5173%u8054%u6027%u7684%u542f%u53d1%u548c%u5f71%u54cd%uff0c%u4f7f%u5f97%u4e3b%u89c2%u7ecf%u9a8c%u548c%u611f%u89c9%u7ecf%u9a8c%u76f8%u4e92%u5339%u914d%uff0c%u7136%u540e%u901a%u8fc7%u6982%u5ff5%u878d%u5408%u800c%u5f62%u6210%u5177%u6709%u542f%u793a%u610f%u4e49%u548c%u6307%u5bfc%u610f%u4e49%u7684%u8f6f%u4ef6%u9690%u55bb%u3002%u8fd9%u6b63%u662f%u8f6f%u4ef6%u9690%u55bb%u7684%u5de5%u4f5c%u673a%u5236%u3002%0a%09%09%09%09%3c%2fp%3e">隐喻</span>（组织型<span class='show_key' data-wordid='2417' data-des="%3cp%3e%0a%09%09%09%09%09%u8f6f%u4ef6%u9690%u55bb%u7684%u672c%u8d28%u662f%u4e00%u79cd%u8ba4%u77e5%u9690%u55bb%u3002%u6211%u4eec%u53ef%u4ee5%u901a%u8fc7%u5728%u65e5%u5e38%u751f%u6d3b%u4e2d%u65e0%u610f%u8bc6%u83b7%u5f97%u7684%u57fa%u672c%u9690%u55bb%u7cfb%u7edf%uff0c%u5728%u8f6f%u4ef6%u5f00%u53d1%u8fc7%u7a0b%u4e2d%uff0c%u53d7%u5230%u5173%u8054%u6027%u7684%u542f%u53d1%u548c%u5f71%u54cd%uff0c%u4f7f%u5f97%u4e3b%u89c2%u7ecf%u9a8c%u548c%u611f%u89c9%u7ecf%u9a8c%u76f8%u4e92%u5339%u914d%uff0c%u7136%u540e%u901a%u8fc7%u6982%u5ff5%u878d%u5408%u800c%u5f62%u6210%u5177%u6709%u542f%u793a%u610f%u4e49%u548c%u6307%u5bfc%u610f%u4e49%u7684%u8f6f%u4ef6%u9690%u55bb%u3002%u8fd9%u6b63%u662f%u8f6f%u4ef6%u9690%u55bb%u7684%u5de5%u4f5c%u673a%u5236%u3002%0a%09%09%09%09%3c%2fp%3e">隐喻</span>，功能型<span class='show_key' data-wordid='2417' data-des="%3cp%3e%0a%09%09%09%09%09%u8f6f%u4ef6%u9690%u55bb%u7684%u672c%u8d28%u662f%u4e00%u79cd%u8ba4%u77e5%u9690%u55bb%u3002%u6211%u4eec%u53ef%u4ee5%u901a%u8fc7%u5728%u65e5%u5e38%u751f%u6d3b%u4e2d%u65e0%u610f%u8bc6%u83b7%u5f97%u7684%u57fa%u672c%u9690%u55bb%u7cfb%u7edf%uff0c%u5728%u8f6f%u4ef6%u5f00%u53d1%u8fc7%u7a0b%u4e2d%uff0c%u53d7%u5230%u5173%u8054%u6027%u7684%u542f%u53d1%u548c%u5f71%u54cd%uff0c%u4f7f%u5f97%u4e3b%u89c2%u7ecf%u9a8c%u548c%u611f%u89c9%u7ecf%u9a8c%u76f8%u4e92%u5339%u914d%uff0c%u7136%u540e%u901a%u8fc7%u6982%u5ff5%u878d%u5408%u800c%u5f62%u6210%u5177%u6709%u542f%u793a%u610f%u4e49%u548c%u6307%u5bfc%u610f%u4e49%u7684%u8f6f%u4ef6%u9690%u55bb%u3002%u8fd9%u6b63%u662f%u8f6f%u4ef6%u9690%u55bb%u7684%u5de5%u4f5c%u673a%u5236%u3002%0a%09%09%09%09%3c%2fp%3e">隐喻</span>，视觉性<span class='show_key' data-wordid='2417' data-des="%3cp%3e%0a%09%09%09%09%09%u8f6f%u4ef6%u9690%u55bb%u7684%u672c%u8d28%u662f%u4e00%u79cd%u8ba4%u77e5%u9690%u55bb%u3002%u6211%u4eec%u53ef%u4ee5%u901a%u8fc7%u5728%u65e5%u5e38%u751f%u6d3b%u4e2d%u65e0%u610f%u8bc6%u83b7%u5f97%u7684%u57fa%u672c%u9690%u55bb%u7cfb%u7edf%uff0c%u5728%u8f6f%u4ef6%u5f00%u53d1%u8fc7%u7a0b%u4e2d%uff0c%u53d7%u5230%u5173%u8054%u6027%u7684%u542f%u53d1%u548c%u5f71%u54cd%uff0c%u4f7f%u5f97%u4e3b%u89c2%u7ecf%u9a8c%u548c%u611f%u89c9%u7ecf%u9a8c%u76f8%u4e92%u5339%u914d%uff0c%u7136%u540e%u901a%u8fc7%u6982%u5ff5%u878d%u5408%u800c%u5f62%u6210%u5177%u6709%u542f%u793a%u610f%u4e49%u548c%u6307%u5bfc%u610f%u4e49%u7684%u8f6f%u4ef6%u9690%u55bb%u3002%u8fd9%u6b63%u662f%u8f6f%u4ef6%u9690%u55bb%u7684%u5de5%u4f5c%u673a%u5236%u3002%0a%09%09%09%09%3c%2fp%3e">隐喻</span>）、混用
+</p>
+<p>
+	<span class='show_key' data-wordid='2417' data-des="%3cp%3e%0a%09%09%09%09%09%u8f6f%u4ef6%u9690%u55bb%u7684%u672c%u8d28%u662f%u4e00%u79cd%u8ba4%u77e5%u9690%u55bb%u3002%u6211%u4eec%u53ef%u4ee5%u901a%u8fc7%u5728%u65e5%u5e38%u751f%u6d3b%u4e2d%u65e0%u610f%u8bc6%u83b7%u5f97%u7684%u57fa%u672c%u9690%u55bb%u7cfb%u7edf%uff0c%u5728%u8f6f%u4ef6%u5f00%u53d1%u8fc7%u7a0b%u4e2d%uff0c%u53d7%u5230%u5173%u8054%u6027%u7684%u542f%u53d1%u548c%u5f71%u54cd%uff0c%u4f7f%u5f97%u4e3b%u89c2%u7ecf%u9a8c%u548c%u611f%u89c9%u7ecf%u9a8c%u76f8%u4e92%u5339%u914d%uff0c%u7136%u540e%u901a%u8fc7%u6982%u5ff5%u878d%u5408%u800c%u5f62%u6210%u5177%u6709%u542f%u793a%u610f%u4e49%u548c%u6307%u5bfc%u610f%u4e49%u7684%u8f6f%u4ef6%u9690%u55bb%u3002%u8fd9%u6b63%u662f%u8f6f%u4ef6%u9690%u55bb%u7684%u5de5%u4f5c%u673a%u5236%u3002%0a%09%09%09%09%3c%2fp%3e">隐喻</span>是将用户的心智模型与系统功能进行完美匹配的最好方式。例如，回收站、文件夹都是<span class='show_key' data-wordid='2417' data-des="%3cp%3e%0a%09%09%09%09%09%u8f6f%u4ef6%u9690%u55bb%u7684%u672c%u8d28%u662f%u4e00%u79cd%u8ba4%u77e5%u9690%u55bb%u3002%u6211%u4eec%u53ef%u4ee5%u901a%u8fc7%u5728%u65e5%u5e38%u751f%u6d3b%u4e2d%u65e0%u610f%u8bc6%u83b7%u5f97%u7684%u57fa%u672c%u9690%u55bb%u7cfb%u7edf%uff0c%u5728%u8f6f%u4ef6%u5f00%u53d1%u8fc7%u7a0b%u4e2d%uff0c%u53d7%u5230%u5173%u8054%u6027%u7684%u542f%u53d1%u548c%u5f71%u54cd%uff0c%u4f7f%u5f97%u4e3b%u89c2%u7ecf%u9a8c%u548c%u611f%u89c9%u7ecf%u9a8c%u76f8%u4e92%u5339%u914d%uff0c%u7136%u540e%u901a%u8fc7%u6982%u5ff5%u878d%u5408%u800c%u5f62%u6210%u5177%u6709%u542f%u793a%u610f%u4e49%u548c%u6307%u5bfc%u610f%u4e49%u7684%u8f6f%u4ef6%u9690%u55bb%u3002%u8fd9%u6b63%u662f%u8f6f%u4ef6%u9690%u55bb%u7684%u5de5%u4f5c%u673a%u5236%u3002%0a%09%09%09%09%3c%2fp%3e">隐喻</span>运用，此处应特别小心，用户要能够准确理解<span class='show_key' data-wordid='2417' data-des="%3cp%3e%0a%09%09%09%09%09%u8f6f%u4ef6%u9690%u55bb%u7684%u672c%u8d28%u662f%u4e00%u79cd%u8ba4%u77e5%u9690%u55bb%u3002%u6211%u4eec%u53ef%u4ee5%u901a%u8fc7%u5728%u65e5%u5e38%u751f%u6d3b%u4e2d%u65e0%u610f%u8bc6%u83b7%u5f97%u7684%u57fa%u672c%u9690%u55bb%u7cfb%u7edf%uff0c%u5728%u8f6f%u4ef6%u5f00%u53d1%u8fc7%u7a0b%u4e2d%uff0c%u53d7%u5230%u5173%u8054%u6027%u7684%u542f%u53d1%u548c%u5f71%u54cd%uff0c%u4f7f%u5f97%u4e3b%u89c2%u7ecf%u9a8c%u548c%u611f%u89c9%u7ecf%u9a8c%u76f8%u4e92%u5339%u914d%uff0c%u7136%u540e%u901a%u8fc7%u6982%u5ff5%u878d%u5408%u800c%u5f62%u6210%u5177%u6709%u542f%u793a%u610f%u4e49%u548c%u6307%u5bfc%u610f%u4e49%u7684%u8f6f%u4ef6%u9690%u55bb%u3002%u8fd9%u6b63%u662f%u8f6f%u4ef6%u9690%u55bb%u7684%u5de5%u4f5c%u673a%u5236%u3002%0a%09%09%09%09%3c%2fp%3e">隐喻</span>的含义，如，数字图书馆被很多用户理解为具有管理图书功能的系统，应该可以回答找书时出现的问题，然而大多数数字图书馆并没有设计这样的服务。
+</p>
+<p>
+	定义内容条目和群组之间的关系类型
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_273.png" title="" data-bw-attr="%7B%22width%22%3A%22%22%2C%22height%22%3A%22150%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_273.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_273.png%22%2C%22effect%22%3A%221%22%7D" height="150" width="110" /> 
+</p>
+<p>
+	·等级式
+</p>
+<p>
+	自上而下的做法
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_473.png" title="" data-bw-attr="%7B%22width%22%3A%22%22%2C%22height%22%3A%22150%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_473.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_473.png%22%2C%22effect%22%3A%221%22%7D" height="150" width="110" /> 
+</p>
+<p>
+	·数据库模式
+</p>
+<p>
+	元数据可以让我们把关系型数据库的结构和威力，运用到异质性、非结构化的网站环境和企业网络环境中。使用元数据为其他信息对象打上标记，我们就可以进行有力的搜索、浏览、过滤，以及动态链接。
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_506.png" title="" data-bw-attr="%7B%22width%22%3A%22%22%2C%22height%22%3A%22180%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_506.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_506.png%22%2C%22effect%22%3A%221%22%7D" height="180" width="110" /> 
+</p>
+<p>
+	·超文本
+</p>
+<p>
+	超文本不是作为主要的组织结构，它可以弥补等级模式或数据库模式的不足。
+</p>
+<p>
+	一种高度非线性的结构化信息的方式，并且会使信息间的相关性较大。
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_645.png" title="" data-bw-attr="%7B%22width%22%3A%22%22%2C%22height%22%3A%22100%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_645.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_645.png%22%2C%22effect%22%3A%221%22%7D" height="100" width="110" /> 
+</p>
+<p>
+	·大众分类
+</p>
+<p>
+	标签是公开的，作为群体导航的枢纽。用户可以在对象、作者、标签及索引者之间顺畅地移动。当许多人参与时，有趣的机会就会出现，把用户行为和标签模式转换成新的组织和导航系统。
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-imgs" src="upload_files/2903/baseimg_704.png" width="161" height="150" title="" data-bw-attr="%7B%22width%22%3A%22161%22%2C%22height%22%3A%22150%22%2C%22subtit%22%3A%22%22%2C%22imgs%22%3A%5B%7B%22url%22%3A%22upload_files/2903/baseimg_704.png%22%7D%2C%7B%22url%22%3A%22upload_files/2903/baseimg_973.png%22%7D%5D%2C%22effect%22%3A%221%22%7D" /> 
+</p>
+<h2>
+	&nbsp;<span class='show_key' data-wordid='2403' data-des="%3cp%3e%0a%09%09%09%09%09%u662f%20Emil%20Leon%20Post%20%u57281943%u5e74%u521b%u7acb%u7684%u786e%u5b9a%u6027%u8ba1%u7b97%u6a21%u578b%uff0c%u4f5c%u4e3a%u4e00%u79cd%u7b80%u5355%u5f62%u5f0f%u7684%u5b57%u7b26%u4e32%u91cd%u5199%u7cfb%u7edf%u3002%u6807%u8bb0%u7cfb%u7edf%u4e5f%u53ef%u4ee5%u770b%u4f5c%u62bd%u8c61%u673a%uff0c%u53eb%u505a%20Post%20%u6807%u8bb0%u673a%uff08%u4e0d%u8981%u6df7%u6dc6%u4e8ePost%2d%u56fe%u7075%u673a%uff09%u2014%u2014%u7b80%u5355%u7684%u8bf4%uff0c%u5176%u552f%u4e00%u7684%u78c1%u5e26%u662f%u65e0%u9650%u957f%u5ea6%u7684FIFO%u961f%u5217%u7684%u6709%u9650%u72b6%u6001%u81ea%u52a8%u673a%uff0c%u5728%u6bcf%u6b21%u72b6%u6001%u8f6c%u53d8%u4e2d%u673a%u5668%u8bfb%u5728%u961f%u5217%u5934%u90e8%u7684%u7b26%u53f7%uff0c%u4ece%u5934%u90e8%u5220%u9664%u56fa%u5b9a%u6570%u76ee%u7684%u7b26%u53f7%uff0c%u5e76%u53ef%u4ee5%u5411%u5c3e%u90e8%u589e%u52a0%u7b26%u53f7%u3002%0a%09%09%09%09%3c%2fp%3e">标记系统</span>
+</h2>
+<p>
+	（1）类型
+</p>
+<p>
+	情景式链接（即上下文链接）上下文链接是那些在页面中间出现的链接
+</p>
+<p>
+	标题（等级式标记，序列式标记）
+</p>
+<p>
+	导航系统选项：代表导航系统中选项的标记。
+</p>
+<p>
+	索引术语：供应搜索或浏览的关键词和标题词，关键词和标题词代表的是内容。
+</p>
+<p>
+	图标型标记
+</p>
+<p>
+	（2）标记一致性
+</p>
+<p>
+	在一个网络产品中，<span class='show_key' data-wordid='2403' data-des="%3cp%3e%0a%09%09%09%09%09%u662f%20Emil%20Leon%20Post%20%u57281943%u5e74%u521b%u7acb%u7684%u786e%u5b9a%u6027%u8ba1%u7b97%u6a21%u578b%uff0c%u4f5c%u4e3a%u4e00%u79cd%u7b80%u5355%u5f62%u5f0f%u7684%u5b57%u7b26%u4e32%u91cd%u5199%u7cfb%u7edf%u3002%u6807%u8bb0%u7cfb%u7edf%u4e5f%u53ef%u4ee5%u770b%u4f5c%u62bd%u8c61%u673a%uff0c%u53eb%u505a%20Post%20%u6807%u8bb0%u673a%uff08%u4e0d%u8981%u6df7%u6dc6%u4e8ePost%2d%u56fe%u7075%u673a%uff09%u2014%u2014%u7b80%u5355%u7684%u8bf4%uff0c%u5176%u552f%u4e00%u7684%u78c1%u5e26%u662f%u65e0%u9650%u957f%u5ea6%u7684FIFO%u961f%u5217%u7684%u6709%u9650%u72b6%u6001%u81ea%u52a8%u673a%uff0c%u5728%u6bcf%u6b21%u72b6%u6001%u8f6c%u53d8%u4e2d%u673a%u5668%u8bfb%u5728%u961f%u5217%u5934%u90e8%u7684%u7b26%u53f7%uff0c%u4ece%u5934%u90e8%u5220%u9664%u56fa%u5b9a%u6570%u76ee%u7684%u7b26%u53f7%uff0c%u5e76%u53ef%u4ee5%u5411%u5c3e%u90e8%u589e%u52a0%u7b26%u53f7%u3002%0a%09%09%09%09%3c%2fp%3e">标记系统</span>应该保持一些特质，尤其是一致性特质，一致性让你的<span class='show_key' data-wordid='2403' data-des="%3cp%3e%0a%09%09%09%09%09%u662f%20Emil%20Leon%20Post%20%u57281943%u5e74%u521b%u7acb%u7684%u786e%u5b9a%u6027%u8ba1%u7b97%u6a21%u578b%uff0c%u4f5c%u4e3a%u4e00%u79cd%u7b80%u5355%u5f62%u5f0f%u7684%u5b57%u7b26%u4e32%u91cd%u5199%u7cfb%u7edf%u3002%u6807%u8bb0%u7cfb%u7edf%u4e5f%u53ef%u4ee5%u770b%u4f5c%u62bd%u8c61%u673a%uff0c%u53eb%u505a%20Post%20%u6807%u8bb0%u673a%uff08%u4e0d%u8981%u6df7%u6dc6%u4e8ePost%2d%u56fe%u7075%u673a%uff09%u2014%u2014%u7b80%u5355%u7684%u8bf4%uff0c%u5176%u552f%u4e00%u7684%u78c1%u5e26%u662f%u65e0%u9650%u957f%u5ea6%u7684FIFO%u961f%u5217%u7684%u6709%u9650%u72b6%u6001%u81ea%u52a8%u673a%uff0c%u5728%u6bcf%u6b21%u72b6%u6001%u8f6c%u53d8%u4e2d%u673a%u5668%u8bfb%u5728%u961f%u5217%u5934%u90e8%u7684%u7b26%u53f7%uff0c%u4ece%u5934%u90e8%u5220%u9664%u56fa%u5b9a%u6570%u76ee%u7684%u7b26%u53f7%uff0c%u5e76%u53ef%u4ee5%u5411%u5c3e%u90e8%u589e%u52a0%u7b26%u53f7%u3002%0a%09%09%09%09%3c%2fp%3e">标记系统</span>容易具有可预测性，也就更容易学习。
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_914.png" title="" data-bw-attr="%7B%22width%22%3A%22143%22%2C%22height%22%3A%22150%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_914.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_914.png%22%2C%22effect%22%3A%221%22%7D" height="150" width="143" /> 
+</p>
+<h3>
+	<span class='show_key' data-wordid='2403' data-des="%3cp%3e%0a%09%09%09%09%09%u662f%20Emil%20Leon%20Post%20%u57281943%u5e74%u521b%u7acb%u7684%u786e%u5b9a%u6027%u8ba1%u7b97%u6a21%u578b%uff0c%u4f5c%u4e3a%u4e00%u79cd%u7b80%u5355%u5f62%u5f0f%u7684%u5b57%u7b26%u4e32%u91cd%u5199%u7cfb%u7edf%u3002%u6807%u8bb0%u7cfb%u7edf%u4e5f%u53ef%u4ee5%u770b%u4f5c%u62bd%u8c61%u673a%uff0c%u53eb%u505a%20Post%20%u6807%u8bb0%u673a%uff08%u4e0d%u8981%u6df7%u6dc6%u4e8ePost%2d%u56fe%u7075%u673a%uff09%u2014%u2014%u7b80%u5355%u7684%u8bf4%uff0c%u5176%u552f%u4e00%u7684%u78c1%u5e26%u662f%u65e0%u9650%u957f%u5ea6%u7684FIFO%u961f%u5217%u7684%u6709%u9650%u72b6%u6001%u81ea%u52a8%u673a%uff0c%u5728%u6bcf%u6b21%u72b6%u6001%u8f6c%u53d8%u4e2d%u673a%u5668%u8bfb%u5728%u961f%u5217%u5934%u90e8%u7684%u7b26%u53f7%uff0c%u4ece%u5934%u90e8%u5220%u9664%u56fa%u5b9a%u6570%u76ee%u7684%u7b26%u53f7%uff0c%u5e76%u53ef%u4ee5%u5411%u5c3e%u90e8%u589e%u52a0%u7b26%u53f7%u3002%0a%09%09%09%09%3c%2fp%3e">标记系统</span>的来源
+</h3>
+<p>
+	你的现有网站
+</p>
+<p>
+	类似网站和竞争对手的网站
+</p>
+<p>
+	元数据
+</p>
+<p>
+	创建新的标签系统
+</p>
+<p>
+	内容分析
+</p>
+<p>
+	内容作者
+</p>
+<p>
+	用户代言人及主题作家（图书馆员、接线员、主题专家）
+</p>
+<p>
+	来自用户
+</p>
+<h2>
+	导航系统
+</h2>
+<p>
+	导航系统主要为浏览服务。
+</p>
+<p>
+	设计导航系统时，情境是第一位的。
+</p>
+<p>
+	用户应该一直知道他们在浏览那个网站。
+</p>
+<p>
+	以明确一致的风格，展现信息等级结构，且指出用户当前的位置。
+</p>
+<h2>
+	搜索系统
+</h2>
+<p>
+	在为网站构建搜索系统前，需要考虑以下几个问题
+</p>
+<p>
+	网站是否有足够的内容（50页或500页）
+</p>
+<p>
+	搜索系统会不会影响导航系统的使用，如果搜索使用太频繁，间接说明导航系统不便于浏览
+</p>
+<p>
+	是否有足够的时间和技术来优化搜索
+</p>
+<p>
+	时间、技术、预算方面有问题时，是否考虑用网站索引来代替搜索
+</p>
+<p>
+	搜索可以协助各个频道，帮助用户更快的找到各个频道下的信息
+</p>
+<p>
+	通过搜索日志分析，可以搜集和用户相关的数据（站内搜索优化）
+</p>
+<p>
+	如果网站有高度动态内容或更新，是否考虑建立搜索系统，如新闻类
+</p>
+<h3>
+	搜索系统基本解析
+</h3>
+<p>
+	搜索系统基本解析
+</p>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_911.png" title="" data-bw-attr="%7B%22width%22%3A%22%22%2C%22height%22%3A%22150%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_911.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_911.png%22%2C%22effect%22%3A%221%22%7D" height="150" width="110" /> 
+</p>
+<p>
+	搜索算法多采用模式匹配的方法
+</p>
+<p>
+	模式匹配是指将两个模式作为输入，计算模式元素之间语义上的对应关系的过程。在串中寻找子串（第一个字符）在串中的位置
+</p>
+<p>
+	有两个字符串T和Ｓ，字符串T称为正文，字符串S称为模式，要求找出模式S在正文T中的首次出现的位置。一旦模式S在正文T中找到，就说发生一次匹配。有些应用可能会要求找出所有的匹配位置。
+</p>
+<p>
+	&nbsp;在模式匹配中，子串称为模式，串称为目标。
+</p>
+<h3>
+	全面与精准的矛盾
+</h3>
+<p>
+	描述范围小则有更高的查准率。而范围大则有更高的查全率，但查准和查全有部分互斥的关系，所以要根据实际情况进行认真的调整和设计。
+</p>
+<p>
+	<img src="upload_files/2903/clip_image003_1410762418934385.png?951" onerror="top.reloadImg(this,'upload_files/2903/clip_image003_1410762418934385.png')" height="50" width="238" /> 
+</p>
+<p>
+	<img src="upload_files/2903/clip_image004_1410762418934596.png?170" onerror="top.reloadImg(this,'upload_files/2903/clip_image004_1410762418934596.png')" height="50" width="236" /> 
+</p>
+<h2>
+	<span class='show_key' data-wordid='2426' data-des="%3cp%3e%0a%09%09%09%09%09%u4e3b%u8981%u4efb%u52a1%u662f%u4e3a%u4fe1%u606f%u4e0e%u7528%u6237%u8ba4%u77e5%u4e4b%u95f4%u642d%u5efa%u4e00%u5ea7%u7545%u901a%u7684%u6865%u6881%uff0c%u662f%u4fe1%u606f%u76f4%u89c2%u8868%u8fbe%u7684%u8f7d%u4f53%u3002%u901a%u4fd7%u70b9%uff0c%u4fe1%u606f%u67b6%u6784%u5c31%u662f%u7814%u7a76%u4fe1%u606f%u7684%u8868%u8fbe%u548c%u4f20%u9012%u3002%u4fe1%u606f%u67b6%u6784%u4e0d%u4ec5%u4ec5%u662f%u8bbe%u8ba1%u4fe1%u606f%u7684%u7ec4%u7ec7%u7ed3%u6784%u3002%0a%09%09%09%09%3c%2fp%3e">信息架构</span>的成果方式
+</h2>
+<p class="bw_image_center">
+	<img class="ke-bw-img" src="upload_files/2903/baseimg_710.png" title="" data-bw-attr="%7B%22width%22%3A%22%22%2C%22height%22%3A%22150%22%2C%22subtit%22%3A%22%22%2C%22url%22%3A%22upload_files/2903/baseimg_710.png%22%2C%22bigurl%22%3A%22upload_files/2903/baseimg_710.png%22%2C%22effect%22%3A%221%22%7D" height="150" width="110" /> 
+</p>
+<p>
+	内容映射和清单
+</p>
+<p>
+	<span class='show_key' data-wordid='2402' data-des="%3cp%3e%0a%09%09%09%09%09%u662f%u6307%u4fe1%u606f%u67b6%u6784%u7684%u81ea%u4e0a%u800c%u4e0b%u548c%u81ea%u4e0b%u800c%u4e0a%u4e24%u79cd%u6d41%u7a0b%u7ed3%u5408%u4e4b%u5904%u3002%0a%09%09%09%09%3c%2fp%3e">内容映射表格</span>就是<span class='show_key' data-wordid='2426' data-des="%3cp%3e%0a%09%09%09%09%09%u4e3b%u8981%u4efb%u52a1%u662f%u4e3a%u4fe1%u606f%u4e0e%u7528%u6237%u8ba4%u77e5%u4e4b%u95f4%u642d%u5efa%u4e00%u5ea7%u7545%u901a%u7684%u6865%u6881%uff0c%u662f%u4fe1%u606f%u76f4%u89c2%u8868%u8fbe%u7684%u8f7d%u4f53%u3002%u901a%u4fd7%u70b9%uff0c%u4fe1%u606f%u67b6%u6784%u5c31%u662f%u7814%u7a76%u4fe1%u606f%u7684%u8868%u8fbe%u548c%u4f20%u9012%u3002%u4fe1%u606f%u67b6%u6784%u4e0d%u4ec5%u4ec5%u662f%u8bbe%u8ba1%u4fe1%u606f%u7684%u7ec4%u7ec7%u7ed3%u6784%u3002%0a%09%09%09%09%3c%2fp%3e">信息架构</span>的自上而下和自下而上两种流程结合之处。详尽的内容映射流程包含把现存内容拆开或结合成内容块，使你能够把它们引入网站中。
+</p>
+<p>
+	内容映射流程的副产品就是内容清单。描述可用内容，以及哪里可以找到这些内容。另外也可以知道那些内容空白需要补充。
+</p>
+
+							</div>
+
+
+							<!-- <h2>学员探究</h2>
+							<ul class="all_discuss">
+								<li><img src="images/head_boy.png"><span>张晓明</span></li>
+								<li><img src="images/head_girl.png"><span>刘燕</span></li>
+								<li><img src="images/head_boy.png"><span>张晓明</span></li>
+								<li><img src="images/head_boy.png"><span>张晓明</span></li>
+								<li><img src="images/head_boy.png"><span>张晓明</span></li>
+								<li><img src="images/head_girl.png"><span>刘晓梅</span></li>
+								<li><img src="images/head_boy.png"><span>张晓明</span></li>
+								<li><img src="images/head_boy.png"><span>张晓明</span></li>
+							</ul> -->
+		
+
+							<script type="text/javascript">
+
+								var no_discuss = $(".study_main").find("div");
+								if(!(no_discuss.hasClass("no_discuss"))){
+									$('<input type="button" class="button blue discuss" value="进入讨论">').appendTo($(".study_main"));
+								}
+							</script>
+							
+						</div>
+					</div>
+
+					<!-- <div class="comment_contain">
+						<h2>讨论区</h2>
+						<ul>
+							<li>
+								<p>
+									<span class="comment_author">匿名</span>:<span class="comment_time">2014-06-05 15:58</span> 
+								</p>
+								<p>
+									<span class="comment_content">生活百般滋味，人生需要笑对</span> 
+								</p>
+							</li>
+							<li>
+								<p>
+									<span class="comment_author">匿名</span>:<span class="comment_time">2014-06-05 15:58</span> 
+								</p>
+								<p>
+									<span class="comment_content">生活百般滋味，人生需要笑对</span> 
+								</p>
+							</li>
+							<li>
+								<p>
+									<span class="comment_author">匿名</span>:<span class="comment_time">2014-06-05 15:58</span> 
+								</p>
+								<p>
+									<span class="comment_content">生活百般滋味，人生需要笑对</span> 
+								</p>
+							</li>
+						</ul>
+					</div> -->
+				</div>
+				<div class="chapter_sidelist">
+					<div class="top_list">
+						<ul id="tab">
+							<li class="cur"><span>目录</span></li>
+							<!-- <li><span>笔记</span></li>
+							<li><span>词汇</span></li> -->
+						</ul>
+						<div class="hideSideBtn" title="隐藏课程目录">
+							<span class="hideRightBtn"></span>
+						</div>
+					</div>
+					
+					<div class="tab_contain" style="display: block;">
+						<span class="line"></span>
+
+						<ul class="menu">
+							
+
+
+
+								<li data-columnid="2893">
+									<span class="chapter_num">第</span>
+																		<span class="cir">1</span>
+																		<span class="chapter_name">章　网站需求分析</span>
+									<ul>
+										
+
+											<li data-columnid="2894">
+												<a href="chapter_1_1.html">
+													<span class="section_name">学习指导</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2895">
+												<a href="chapter_1_2.html">
+													<span class="section_name">第一节 网络综合设计的阶段性划分</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2896">
+												<a href="chapter_1_3.html">
+													<span class="section_name">第二节 网站需求分析的一般性内容</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2897">
+												<a href="chapter_1_4.html">
+													<span class="section_name">第三节 网站需求分析的方法</span>
+												</a>
+											</li>
+										
+									</ul>
+								</li>
+							
+								<li data-columnid="2898">
+									<span class="chapter_num">第</span>
+																		<span class="cir">2</span>
+																		<span class="chapter_name">章 网站信息架构设计</span>
+									<ul>
+										
+
+											<li data-columnid="2899">
+												<a href="chapter_2_1.html">
+													<span class="section_name">学习指导</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2900">
+												<a href="chapter_2_2.html">
+													<span class="section_name">第一节 信息架构概述</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2901">
+												<a href="chapter_2_3.html">
+													<span class="section_name">第二节 为什么要用信息架构</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2902">
+												<a href="chapter_2_4.html">
+													<span class="section_name">第三节 信息架构基础</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2903">
+												<a href="chapter_2_5.html">
+													<span class="section_name">第四节 信息架构体系</span>
+												</a>
+											</li>
+										
+									</ul>
+								</li>
+							
+								<li data-columnid="2904">
+									<span class="chapter_num">第</span>
+																		<span class="cir">3</span>
+																		<span class="chapter_name">章 网站功能规划</span>
+									<ul>
+										
+
+											<li data-columnid="2905">
+												<a href="chapter_3_1.html">
+													<span class="section_name">学习指导</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2906">
+												<a href="chapter_3_2.html">
+													<span class="section_name">第一节 功能规划要点</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2907">
+												<a href="chapter_3_3.html">
+													<span class="section_name">第二节 功能描述方法——use case</span>
+												</a>
+											</li>
+										
+									</ul>
+								</li>
+							
+								<li data-columnid="2908">
+									<span class="chapter_num">第</span>
+																		<span class="cir">4</span>
+																		<span class="chapter_name">章 网站原型设计</span>
+									<ul>
+										
+
+											<li data-columnid="2909">
+												<a href="chapter_4_1.html">
+													<span class="section_name">学习指导</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2910">
+												<a href="chapter_4_2.html">
+													<span class="section_name">第一节 交互设计</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2911">
+												<a href="chapter_4_3.html">
+													<span class="section_name">第二节 原型设计工具——AXURE</span>
+												</a>
+											</li>
+										
+											<li data-columnid="2912">
+												<a href="chapter_4_4.html">
+													<span class="section_name">第三节 视觉设计</span>
+												</a>
+											</li>
+										
+									</ul>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="tab_contain">
+						<ul class="note_list">
+							<li>
+								<p>
+									<span class="author_name">匿名</span>
+									<span class="note_time">2015-12-13 13:49:21</span>
+									<span class="delete"><a href="###">删除</a></span>
+								</p>
+								<p>
+									<span class="note_main">学习过程中记录的笔记1</span>
+								</p>			
+							</li>
+							<li>
+								<p>
+									<span class="author_name">匿名</span>
+									<span class="note_time">2015-12-13 13:49:21</span>
+									<span class="delete"><a href="###">删除</a></span>
+								</p>
+								<p>
+									<span class="note_main">学习过程中记录的笔记2</span>
+								</p>			
+							</li>
+							<li>
+								<p>
+									<span class="author_name">匿名</span>
+									<span class="note_time">2015-12-13 13:49:21</span>
+									<span class="delete"><a href="###">删除</a></span>
+								</p>
+								<p>
+									<span class="note_main">学习过程中记录的笔记3</span>
+								</p>			
+							</li>
+						</ul>
+						<textarea></textarea>
+						<input type="button" value="重置" id="reset" class="button white">
+						<input type="button" value="提交" id="submit" class="button white">
+					</div>
+					<div class="tab_contain">
+						<div class="word">	
+							<b>A</b>
+							<div class="wl">
+								<h2>螯合物(chelate)</h2>
+								<p>由中心原子与多齿配体形成的环状配合物称为螯合物。</p>
+							</div>
+							<div class="wl">
+								<h2>螯合效应(chelating effect)</h2>
+								<p>于生成螯合物而使配合物稳定性大大增加的作用称为螯合效应。</p>
+							</div>
+							<div class="wl">
+								<h2>螯合剂(chelating agent)</h2>
+								<p>能与中心原子形成螯合物的多齿配体称为螯合剂。</p>
+							</div>
+						</div>
+						<div class="word">	
+							<b>B</b>
+							<div class="wl">
+								<h2>“表观解离度”<br>(apparent degree of ionization)</h2>
+								<p>实验测出的解离度，并不代表强电解质在溶液中的实际解离度，而仅仅反映了强电解质溶液中离子间相互牵制作用的强弱程度，故称“表观解离度”。</p>
+							</div>
+							<div class="wl">
+								<h2>标准摩尔生成焓<br>(standard molar enthalpy of formation)</h2>
+								<p>标准状态下，由稳定单质生成1mol物质B时的焓变称为物质B的标准摩尔生成焓，记为 。</p>
+							</div>
+							<div class="wl">
+								<h2>标准摩尔生成Gibbs自由能<br>(standard molar free energy of formation)</h2>
+								<p>在标准状态下，由最稳定单质生成1mol物质B时的Gibbs自由能，称为物质B的标准摩尔生成Gibbs自由能，符号 。</p>
+							</div>
+							<div class="wl">
+								<h2>标准电极电势<br>(standard electrode potential)</h2>
+								<p>在标准态下测得的某个氧化还原电对的电极电势，就是该氧化还原电对的标准电极电势(standard electrode potential)，符号用 oxd/red表示。</p>
+							</div>
+							<div class="wl">
+								<h2>不等性杂化<br>(nonequivalent hybridization)</h2>
+								<p>杂化后所形成的几个杂化轨道所含原来轨道成分的比例不相等而能量不完全相同，这种杂化称为不等性杂化（nonequivalent hybridization）</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+
+						
+		</div>
+
+
+	</div>
+	
+
+<!-- 页脚内容 -->
+<div class="footer">
+	<p>&copy 2014-2017 <a href="http://www.zznet.info/" target="_blank"> 卓智网络科技有限公司</a> 版权所有</p>
+</div>
+	<div class="tool">
+		<ul class="toolpack">
+			<li><a href="###">信息反馈</a></li>
+			<li><a href="dictionary.html">课程词典</a></li>
+			<li><a href="###">课程笔记</a></li>
+			<li><a href="###">课程书签</a></li>
+		</ul>
+	</div>
+	<a href="#" class="top"><span>00:00</span>TOP</a>
+
+	<script type="text/javascript">
+
+		    //初始时间
+		    var ctime = parseInt(document.cookie);
+		    if(!ctime)ctime=0;
+		    if(!(ctime+"").match(/\d+/)){
+		    	ctime = 0;
+		    }
+		    var time = ctime;
+		    var countTimer;
+		    $(document).ready(function(){
+		    	countTimer = setInterval(function(){
+			      time++;
+			      document.cookie = time;
+			      var m = parseInt(time/60);
+			      var s = time%60;
+			      $(".top").find("span").empty().html((m<10?("0"+m):m) +":" +(s<10?("0"+s):s));
+			    },1000);
+		    });
+
+
+		    function stopCount(){
+		    	clearInterval(countTimer);
+		    }
+
+	  </script>
+	<div class="discuss_smbg"></div>
+	<div class="discuss_bg"></div>
+	<div class="discuss_container">
+		<!-- <ul class="roundabout" id="myroundabout"> 
+			<li><img src="images/slide1.jpg"></li> 
+			<li><img src="images/slide2.jpg"></li> 
+			<li><img src="images/slide3.jpg"></li> 
+			<li><img src="images/slide4.jpg"></li> 
+			<li><img src="images/slide5.jpg"></li> 
+		</ul> -->
+		<ul class="discuss_comment roundabout" id="myroundabout">
+			<li>
+				<p>
+					<span class="comment_author">匿名(1楼)</span>:<span class="comment_time">2014-06-05 15:58</span> 
+				</p>
+				<p>
+					<span class="comment_content">如果要在设计中有效的使用颜色，那么就需要了解一下颜色的概念和颜色理论术语。透彻的了解像色度、明度和饱和度这样的概念是创建属于你自己的非常棒的配色方案的关键。在我们的颜色理论系列第1部分：颜色的含义中，提到了不同颜色的意义。在此我们首先将温习一下这个理论的基础：什么条件将影响到一个已 知的颜色，例如添加灰色、白色或灰色到纯色相中，此外，还有这样做将如何影响设计，当然示例是必不可少的。</span> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="comment_author">匿名(2楼)</span>:<span class="comment_time">2014-06-05 15:58</span> 
+				</p>
+				<p>
+					<span class="comment_content">这里有三个单色配色方案的例子。对于这些配色方案大部分来说，从左到右的第一个颜色通常被用作标题的颜色。第二个颜色将用于正文，或者也可用作背景。第三个颜色将可能用于背景，如果#2颜色被用作背景的话，那么它将被用于正文。而最后两种颜色将作为强调，或用在图形中。</span> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="comment_author">匿名(3楼)</span>:<span class="comment_time">2014-06-05 15:58</span> 
+				</p>
+				<p>
+					<span class="comment_content">类比配色方案是仅次于单色的一个易于创建的配色方案。类比方案是由在12辐色轮中相邻的三种颜色创建的。一般来说，类比配色方案都具有相同的色度水平，但通过色调、阴影色和浅色的使用，我们可以增加这些方案的趣味，并且可以适应我们所设计网站的需要。</span> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="comment_author">匿名(4楼)</span>:<span class="comment_time">2014-06-05 15:58</span> 
+				</p>
+				<p>
+					<span class="comment_content">这里有三个单色配色方案的例子。对于这些配色方案大部分来说，从左到右的第一个颜色通常被用作标题的颜色。第二个颜色将用于正文，或者也可用作背景。第三个颜色将可能用于背景，如果#2颜色被用作背景的话，那么它将被用于正文。而最后两种颜色将作为强调，或用在图形中。</span> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="comment_author">匿名(5楼)</span>:<span class="comment_time">2014-06-05 15:58</span> 
+				</p>
+				<p>
+					<span class="comment_content">这里有三个单色配色方案的例子。对于这些配色方案大部分来说，从左到右的第一个颜色通常被用作标题的颜色。第二个颜色将用于正文，或者也可用作背景。第三个颜色将可能用于背景，如果#2颜色被用作背景的话，那么它将被用于正文。而最后两种颜色将作为强调，或用在图形中。<img src="images/engine01.png"></span> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="comment_author">匿名(6楼)</span>:<span class="comment_time">2014-06-05 15:58</span> 
+				</p>
+				<p>
+					<span class="comment_content">这里有三个单色配色方案的例子。对于这些配色方案大部分来说，从左到右的第一个颜色通常被用作标题的颜色。第二个颜色将用于正文，或者也可用作背景。第三个颜色将可能用于背景，如果#2颜色被用作背景的话，那么它将被用于正文。而最后两种颜色将作为强调，或用在图形中。<img src="images/engine01.png"></span> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="comment_author">匿名(7楼)</span>:<span class="comment_time">2014-06-05 15:58</span> 
+				</p>
+				<p>
+					<span class="comment_content">这里有三个单色配色方案的例子。对于这些配色方案大部分来说，从左到右的第一个颜色通常被用作标题的颜色。第二个颜色将用于正文，或者也可用作背景。第三个颜色将可能用于背景，如果#2颜色被用作背景的话，那么它将被用于正文。而最后两种颜色将作为强调，或用在图形中。<img src="images/engine01.png"></span> 
+				</p>
+			</li>
+		</ul>
+		<div class="btn">
+			<input type="text" placeholder="请输入消息……">
+			<input type="button" value="图片" class="pic">
+			<div class="pic_upload">
+				<input type="file">
+			</div>
+			<input type="button" value="发送" class="send">
+		</div>
+		<!-- <iframe src="js/roudabout/index.html"></iframe> -->
+		
+	</div>
+
+
+	<div class="record">
+		<h2>笔记</h2>
+		<ul>
+			<li>
+				<p>
+					<span class="name">匿名</span>
+					<span class="time">2014-07-03 16:56</span>
+				</p>
+				<p>
+					<span class="content">笔记记录重点</span>
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="name">匿名</span>
+					<span class="time">2014-07-03 16:56</span>
+				</p>
+				<p>
+					<span class="content">笔记记录重点</span>
+				</p>
+			</li>
+			<li>
+				<p>
+					<span class="name">匿名</span>
+					<span class="time">2014-07-03 16:56</span>
+				</p>
+				<p>
+					<span class="content">笔记记录重点</span>
+				</p>
+			</li>
+		</ul>
+		<div class="submit">
+			<p><span>用户名</span><input type="text"></p>
+			<textarea></textarea>
+			<input type="button" class="button white" value="提交">
+			<input type="button" class="button white" value="重置">
+		</div>
+	</div>
+
+	<div class="discuss_content">
+		<div class="tab">
+			<h2><img src="images/head_boy.png"><span>张晓明</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-07-04 14:16</span>
+					<span class="number">1</span>
+					<span class="content">进行古建结构承传竖、风载的情况分析古建房屋的构成一般分三部段，即台基、屋身与屋顶。屋身皆为直立的木柱、屋顶为颇多杆件组成的木结构。</span>
+				</li>
+				<li>
+					<span class="time">2014-07-06 09:26</span>
+					<span class="number">2</span>
+					<span class="content">进行燕尾榫在枋和柱连接节点中作用的力学概念分析枋柱夹角的变形导致柱歪是不利于结构的受力与使用，对此“起步变形”令其为零属不可能，但应力求减小才合适。</span>
+				</li>
+				<li>
+					<span class="time">2014-07-07 13:33</span>
+					<span class="number">3</span>
+					<span class="content">进行古建木构架抗风的力学机理分析对榫连柱枋木构架具有“起步变形”的特点来看，其对木构架的受力工作将是引起柱顶位移的加大。位移加大——这对钢筋混凝土框架及钢框架来讲是属不到因素，按现行规范必要时要求在结构设计计算中考虑P•△效应，进行二阶弹性分析。</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab">
+			<h2><img src="images/head_girl.png"><span>刘燕</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-05-04 10:45</span>
+					<span class="number">1</span>
+					<span class="content">对二等材宫殿当心间1/3.52缩尺模型进行了振动台试验结果表明柱根滑移对柱架有隔震作用,斗栱和梁柱节点具有很好的耗能性能,对柱架的耗能和减震起主要作用.</span>
+				</li>
+				<li>
+					<span class="time">2014-06-13 12:25</span>
+					<span class="number">2</span>
+					<span class="content">通过应县木塔二层1:10缩尺模型的低周反复加载试验,获得了木塔的恢复力模型. 使用木材和有机玻璃分别制作了西安北门箭楼1:10缩尺模型,由拟静力试验得到了箭楼结构的滞回特性、刚度和延伸性以及榫卯和斗栱的工作性能</span>
+				</li>
+				<li>
+					<span class="time">2014-07-04 14:16</span>
+					<span class="number">3</span>
+					<span class="content">通过足尺试验比较了木料和土等填充物对剪力墙抗侧刚度的影响,由静力推覆试验分析了具有剪力墙的传统木结构的抗震性能,经水平低周循环加载试验研究了传统木结构剪力墙破坏后的修复加固方法. 分别通过水平单调加载、水平低周循环加载和振动台试验,对日韩古代木结构建筑进行了受力性能和抗震性能研究。</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab">
+			<h2><img src="images/head_boy.png"><span>李万青</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-01-12 18:25</span>
+					<span class="number">1</span>
+					<span class="content">分别通过试验研究了Nuki(一种梁),Laddery(一种梁),Sashigamoi(一种大截面梁),Kok-abe(挂墙),柱以及传统趾榫(stubtenon)和全榫(fulltenon)连接对日本古建筑受力性能和抗震性能的影响.</span>
+				</li>
+				<li>
+					<span class="time">2014-03-24 08:33</span>
+					<span class="number">2</span>
+					<span class="content">对应县木塔1:100缩尺模型进行了风洞试验,得到了木塔各层各面的风压体型系数.</span>
+				</li>
+				<li>
+					<span class="time">2014-06-14 15:26</span>
+					<span class="number">3</span>
+					<span class="content">对西安钟楼进行现场动力响应测试和建立其木结构振动分析模型,依据《古建筑防工业振动技术规范》GB/T50452-2008进行了行驶车辆对钟楼木结构 微振动的影响评估.结果表明,车流量和车速较大时段木结构柱顶的振动速度超过了GB/T50452-2008振动速度的限值,并提出了相应的减振措施。</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab">
+			<h2><img src="images/head_boy.png"><span>马英才</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-03-05 11:06</span>
+					<span class="number">1</span>
+					<span class="content">进行古建结构承传竖、风载的情况分析古建房屋的构成一般分三部段，即台基、屋身与屋顶。屋身皆为直立的木柱、屋顶为颇多杆件组成的木结构。</span>
+				</li>
+				<li>
+					<span class="time">2014-05-11 07:48</span>
+					<span class="number">2</span>
+					<span class="content">进行燕尾榫在枋和柱连接节点中作用的力学概念分析枋柱夹角的变形导致柱歪是不利于结构的受力与使用，对此“起步变形”令其为零属不可能，但应力求减小才合适。</span>
+				</li>
+				<li>
+					<span class="time">2014-07-04 14:16</span>
+					<span class="number">3</span>
+					<span class="content">进行古建木构架抗风的力学机理分析对榫连柱枋木构架具有“起步变形”的特点来看，其对木构架的受力工作将是引起柱顶位移的加大。位移加大——这对钢筋混凝土框架及钢框架来讲是属不到因素，按现行规范必要时要求在结构设计计算中考虑P•△效应，进行二阶弹性分析。</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab">
+			<h2><img src="images/head_boy.png"><span>赵武</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-02-14 11:26</span>
+					<span class="number">1</span>
+					<span class="content">进行古建结构承传竖、风载的情况分析古建房屋的构成一般分三部段，即台基、屋身与屋顶。屋身皆为直立的木柱、屋顶为颇多杆件组成的木结构。</span>
+				</li>
+				<li>
+					<span class="time">2014-05-08 10:44</span>
+					<span class="number">2</span>
+					<span class="content">进行燕尾榫在枋和柱连接节点中作用的力学概念分析枋柱夹角的变形导致柱歪是不利于结构的受力与使用，对此“起步变形”令其为零属不可能，但应力求减小才合适。</span>
+				</li>
+				<li>
+					<span class="time">2014-06-12 16:48</span>
+					<span class="number">3</span>
+					<span class="content">进行古建木构架抗风的力学机理分析对榫连柱枋木构架具有“起步变形”的特点来看，其对木构架的受力工作将是引起柱顶位移的加大。位移加大——这对钢筋混凝土框架及钢框架来讲是属不到因素，按现行规范必要时要求在结构设计计算中考虑P•△效应，进行二阶弹性分析。</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab">
+			<h2><img src="images/head_girl.png"><span>刘晓梅</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-02-14 12:26</span>
+					<span class="number">1</span>
+					<span class="content">进行古建结构承传竖、风载的情况分析古建房屋的构成一般分三部段，即台基、屋身与屋顶。屋身皆为直立的木柱、屋顶为颇多杆件组成的木结构。</span>
+				</li>
+				<li>
+					<span class="time">2014-04-24 15:26</span>
+					<span class="number">2</span>
+					<span class="content">进行燕尾榫在枋和柱连接节点中作用的力学概念分析枋柱夹角的变形导致柱歪是不利于结构的受力与使用，对此“起步变形”令其为零属不可能，但应力求减小才合适。</span>
+				</li>
+				<li>
+					<span class="time">2014-06-04 12:16</span>
+					<span class="number">3</span>
+					<span class="content">进行古建木构架抗风的力学机理分析对榫连柱枋木构架具有“起步变形”的特点来看，其对木构架的受力工作将是引起柱顶位移的加大。位移加大——这对钢筋混凝土框架及钢框架来讲是属不到因素，按现行规范必要时要求在结构设计计算中考虑P•△效应，进行二阶弹性分析。</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab">
+			<h2><img src="images/head_boy.png"><span>孙胜</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-03-11 09:23</span>
+					<span class="number">1</span>
+					<span class="content">进行古建结构承传竖、风载的情况分析古建房屋的构成一般分三部段，即台基、屋身与屋顶。屋身皆为直立的木柱、屋顶为颇多杆件组成的木结构。</span>
+				</li>
+				<li>
+					<span class="time">2014-04-05 12:06</span>
+					<span class="number">2</span>
+					<span class="content">进行燕尾榫在枋和柱连接节点中作用的力学概念分析枋柱夹角的变形导致柱歪是不利于结构的受力与使用，对此“起步变形”令其为零属不可能，但应力求减小才合适。</span>
+				</li>
+				<li>
+					<span class="time">2014-05-28 14:16</span>
+					<span class="number">3</span>
+					<span class="content">进行古建木构架抗风的力学机理分析对榫连柱枋木构架具有“起步变形”的特点来看，其对木构架的受力工作将是引起柱顶位移的加大。位移加大——这对钢筋混凝土框架及钢框架来讲是属不到因素，按现行规范必要时要求在结构设计计算中考虑P•△效应，进行二阶弹性分析。</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab">
+			<h2><img src="images/head_boy.png"><span>刘业华</span></h2>
+			<ul>
+				<li>
+					<span class="time">2014-05-11 12:13</span>
+					<span class="number">1</span>
+					<span class="content">进行古建结构承传竖、风载的情况分析古建房屋的构成一般分三部段，即台基、屋身与屋顶。屋身皆为直立的木柱、屋顶为颇多杆件组成的木结构。</span>
+				</li>
+				<li>
+					<span class="time">2014-06-04 14:16</span>
+					<span class="number">2</span>
+					<span class="content">进行燕尾榫在枋和柱连接节点中作用的力学概念分析枋柱夹角的变形导致柱歪是不利于结构的受力与使用，对此“起步变形”令其为零属不可能，但应力求减小才合适。</span>
+				</li>
+				<li>
+					<span class="time">2014-07-04 16:22</span>
+					<span class="number">3</span>
+					<span class="content">进行古建木构架抗风的力学机理分析对榫连柱枋木构架具有“起步变形”的特点来看，其对木构架的受力工作将是引起柱顶位移的加大。位移加大——这对钢筋混凝土框架及钢框架来讲是属不到因素，按现行规范必要时要求在结构设计计算中考虑P•△效应，进行二阶弹性分析。</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>

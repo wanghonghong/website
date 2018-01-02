@@ -1,0 +1,89 @@
+.viewport{min-width:1200px}
+.wrapper{max-width:1200px;margin:0 auto}
+.header{position:relative;height:70px;border-bottom:1px solid #000;background-color:#4c4c4c;z-index:10}
+.header .wrapper{height:100%}
+.header .menu-toggle{display:none}
+.header .logo{float:left;width:260px;height:0;margin-top:10px;padding-top:50px;overflow:hidden;background:url("../img/logo.png") no-repeat}
+.header .nav{float:right;height:100%;font-size:18px;line-height:70px;text-align:center}
+.header .nav a{display:block;color:#fff;border-left:1px solid transparent;border-right:1px solid transparent}
+.header .nav li:hover>a,.header .nav li.current>a,.header .nav li.active>a,.header .nav a:hover{background-color:#303030;border-color:#656565}
+.header .nav .sub{display:none;font-size:14px;background-color:#4c4c4c}
+.header .nav .sub li{border-top:1px solid #656565}
+.header .nav>li{float:left;width:110px}
+.header .nav>li:hover .sub{display:block}
+.footer{padding:20px 0;text-align:center;font-size:12px;color:#fff;background-color:#4c4c4c}
+.play,.developing{position:absolute;left:0;top:0;width:100%;height:100%;text-align:left;border-radius:10px}
+.developing{text-indent:-100%;overflow:hidden;background:url("../img/developing.png") rgba(0,0,0,.5) center center no-repeat}
+.play:hover{cursor:pointer;background:url("../img/ico-play.png") rgba(0,0,0,.1) center center no-repeat}
+.play:hover video{width:100%;height:100%}
+.play:hover.playing{cursor:default;background:0 0}
+
+
+
+
+
+
+
+
+
+
+
+
+body{background-color:#030d17}
+.btn-back{position:absolute;left:60px;top:23px;padding:6px 12px 6px 6px;color:#48fdf1;border-radius:8px;background-color:rgba(155,155,155,.1);z-index:10}
+.btn-back .ico-back{display:inline-block;width:30px;height:30px;vertical-align:middle;margin-right:3px;background-repeat: no-repeat;}
+.swipe-data{height:0;padding-bottom:56.25%}
+.swipe,.swipe-box,.swipe-wrap{position:relative;overflow:hidden}
+.swipe-item{position:relative;float:left;width:100%}
+.swipe-item img{width:100%;vertical-align:top}
+.swipe-page{position:absolute;left:0;width:100%;bottom:50px;line-height:1;text-align:center}
+.swipe-page a{display:inline-block;overflow:hidden;width:15px;height:0;margin:0 15px;padding-top:15px;border-radius:50%;text-decoration:none;border:1px solid #48fdf1;background:#051e2c}
+.swipe-page a.active,.swipe-page a:hover{background-color:#48fdf1;text-decoration:none}
+.swipe-control{position:absolute;top:50%;width:100%}
+.swipe-control .swipe-prev,.swipe-control .swipe-next{position:absolute;display:inline-block;width:56px;height:355px;top:-177.5px;text-indent:-100%;overflow:hidden}
+.swipe-control .swipe-prev{left:55px;background-repeat: no-repeat;}
+.swipe-control .swipe-prev:hover{background-repeat: no-repeat;}
+.swipe-control .swipe-next{right:55px;background-repeat: no-repeat;}
+.swipe-control .swipe-next:hover{background-repeat: no-repeat;}
+.full .swipe-control{display:none}
+.btn-back .ico-back{background-position:-26px 0px }.swipe-control .swipe-prev{background-position:0px -50px }.swipe-control .swipe-prev:hover{background-position:0px -425px }.swipe-control .swipe-next{background-position:0px -800px }.swipe-control .swipe-next:hover{background-position:0px -1175px }.btn-back .ico-back,.swipe-control .swipe-prev,.swipe-control .swipe-prev:hover,.swipe-control .swipe-next,.swipe-control .swipe-next:hover{background-image: url(../img/pkg/mdata_z.png)}@media  screen and (max-width:750px){body{-webkit-transition:-webkit-transform .3s ease-in-out;transition:-webkit-transform .3s ease-in-out;transition:transform .3s ease-in-out;transition:transform .3s ease-in-out,-webkit-transform .3s ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+body.menu-open{-webkit-transform:translateX(-7rem);-ms-transform:translateX(-7rem);transform:translateX(-7rem)}
+.viewport{min-width:inherit}
+.wrapper{max-width:inherit}
+.body{width:100%;overflow:hidden}
+.header{position:static;height:1.76rem;border-bottom:0;background-color:transparent}
+.header .wrapper{position:fixed;left:0;top:0;width:100%;height:1.76rem;padding-top:.4rem;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#4c4c4c;z-index:1000}
+.header .logo{float:none;width:5.8rem;height:0;padding-top:1rem;overflow:hidden;margin:0 auto;background-repeat: no-repeat;}
+.header .menu-toggle{display:block;position:absolute;right:.2rem;top:.3rem}
+.header .ico-menu{display:inline-block;vertical-align:top;width:1.1rem;height:1.1rem;background-repeat: no-repeat;}
+.header .nav{float:none;position:fixed;left:100%;top:0;width:7rem;height:100%;text-align:left;font-size:1.417em;line-height:1.76rem;-webkit-box-sizing:border-box;box-sizing:border-box;background:url("../mobile/img/nav-bg.png") #4c4c4c repeat-y;-webkit-background-size:7rem auto;background-size:7rem auto}
+.header .nav>li{float:none;width:auto}
+.header .nav>li.current{background-color:#303030}
+.header .nav>li.current .sub{display:block!important}
+.header .nav>li:hover .sub{display:none}
+.header .nav a{border:0;padding-left:1.4rem}
+.header .nav .sub{font-size:.882em;background-color:transparent}
+.header .nav .sub li{border:0}
+.header .nav li.active>a{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJBJREFUeNpi/P//PwMtARMDjcGgt4AfiJfiVQGKAzKxLRA/+A8BONWRYzArELcC8Z//CEA1C9SA+NR/TEAVC1KB+Mt/7IAiC0SAeP1//IBsC9yA+Nl/woBkCziAuB+I//0nDpBswdL/pIHB5wOaxwHdUhFd8gHdcjJdyiK6lKbImB+aZ3CqYRytkwfcAoAAAwAYyudfMefhKgAAAABJRU5ErkJggg==") #7e7e7e .6rem center no-repeat;-webkit-background-size:.48rem .48rem;background-size:.48rem .48rem}
+.footer{font-size:.857em}
+.play,.developing{border-radius:.2rem}
+.developing{-webkit-background-size:11.14rem 7.4rem;background-size:11.14rem 7.4rem}
+.play:hover{background:url("../img/ico-play.png") rgba(0,0,0,.1) center center no-repeat;-webkit-background-size:1.96rem 1.96rem;background-size:1.96rem 1.96rem}.btn-back{left:.4rem;top:.4rem}
+.btn-back .ico-back{width:.6rem;height:.6rem;-webkit-background-size:.6rem .6rem;background-size:.6rem .6rem}
+.swipe-data{padding-bottom:162%}
+.swipe-page{bottom:1.2rem}
+.swipe-page a{width:.3rem;padding-top:.3rem;margin:0 .2rem}
+.swipe-control .swipe-prev,.swipe-control .swipe-next{width:1.12rem;height:7.1rem;top:-3.55rem;-webkit-background-size:1.12rem 7.1rem;background-size:1.12rem 7.1rem}
+.swipe-control .swipe-prev{left:.8rem}
+.swipe-control .swipe-next{right:.8rem}.header .logo{background-position:0rem 0rem}.header .ico-menu{background-position:-4.7rem -1.4rem}.header .logo,.header .ico-menu{background-size: 5.8rem 2.5rem;background-image: url(../img/pkg/mdata_mobile_1_1_z.png)}}@media  screen and (min-width:320px) and (max-width:750px){html{font-size:21.33px}
+body{font-size:12px}}@media  screen and (min-width:360px) and (max-width:750px){html{font-size:24px}
+body{font-size:12px}}@media  screen and (min-width:375px) and (max-width:750px){html{font-size:25px}
+body{font-size:13px}}@media  screen and (min-width:384px) and (max-width:750px){html{font-size:25.6px}
+body{font-size:14px}}@media  screen and (min-width:400px) and (max-width:750px){html{font-size:26.67px}
+body{font-size:14px}}@media  screen and (min-width:414px) and (max-width:750px){html{font-size:27.6px}
+body{font-size:14px}}@media  screen and (min-width:424px) and (max-width:750px){html{font-size:28.27px}
+body{font-size:14px}}@media  screen and (min-width:480px) and (max-width:750px){html{font-size:32px}
+body{font-size:15.36px}}@media  screen and (min-width:540px) and (max-width:750px){html{font-size:36px}
+body{font-size:17.28px}}@media  screen and (min-width:720px) and (max-width:750px){html{font-size:48px}
+body{font-size:23.04px}}@media  screen and (min-width:750px) and (max-width:750px){html{font-size:50px}
+body{font-size:24px}}

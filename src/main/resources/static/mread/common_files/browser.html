@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>浏览器版本提示</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html{
+			background: #E0E4E2;
+		}
+		.wrap{
+			background: url(images/browser.png) center no-repeat;
+			width: 1200px;
+			height: 641px;
+			margin: 100px auto 0;
+			overflow: hidden;
+		}
+		.content{
+			margin: 220px 0 0 555px;
+			width: 460px;
+		}
+		h2{
+			color: #fff;
+			font-size: 22px;
+		}
+		h2 span{
+			color: #EB6F67;
+			font-size: 16px;
+			font-weight: normal;
+		}
+		h3{
+			color: #999;
+			font-size: 14px;
+			font-weight: normal;
+			margin-top: 20px;
+			line-height: 1.6;
+		}
+		p{
+			color: #599747;
+			font-size: 14px;
+			margin: 10px 0;
+		}
+		i.icon{
+			display: block;
+			width: 55px;
+			height: 55px;
+			background: url(images/firefox.png) center no-repeat;
+			margin-bottom: 20px;
+			cursor: pointer;
+		}
+		i.icon-firefox{
+			background-image: url(images/firefox.png);
+		}
+		i.icon-chrome{
+			background-image: url(images/chrome.png);
+		}
+		i.icon-safari{
+			background-image: url(images/safari.png);
+		}
+		i.icon-ie8{
+			background-image: url(images/ie8.png);
+		}
+		ul{
+			list-style: none;
+			overflow: hidden;
+		}
+		ul li{
+			float: left;
+			text-align: center;
+			margin: 25px 50px 0 0;
+			width: 55px;
+			cursor: pointer;
+		}
+		a{
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="content">
+			<h2>请使用以下浏览器<span>（关闭兼容性视图）</span></h2>
+			<p>点击图标到下载页面</p>
+			<ul>
+				<li>
+					<a href="http://www.firefox.com.cn/download/" target="_blank"><i class="icon icon-firefox"></i>Firefox</a>
+				</li>
+				<li>
+					<a href="http://www.google.cn/intl/zh-CN/chrome/" target="_blank"><i class="icon icon-chrome"></i>Chrome</a>
+				</li>
+				<li>
+					<a href="http://rj.baidu.com/soft/detail/12966.html?ald" target="_blank"><i class="icon icon-safari"></i>Safari</a>
+				</li>
+				<li>
+					<a href="http://rj.baidu.com/soft/detail/23253.html?ald" target="_blank"><i class="icon icon-ie8"></i>IE8+</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

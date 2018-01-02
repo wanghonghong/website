@@ -1,0 +1,13 @@
+@media  screen and (max-width:750px){.swipe{position:relative}
+.swipe-box,.swipe-wrap{position:relative;overflow:hidden}
+.swipe-item{position:relative;float:left;width:100%}
+.swipe-item img{width:100%;vertical-align:top}
+.swipe-page{position:absolute;left:0;width:100%;bottom:0;line-height:1;text-align:center}
+.swipe-page a{display:inline-block;overflow:hidden;width:.4rem;height:0;margin:0 .2rem;padding-top:.4rem;border-radius:50%;text-decoration:none;background:#dcdcdc}
+.swipe-page a.active,.swipe-page a:hover{background-color:#2a9fe4;text-decoration:none}
+.swipe-control{position:absolute;top:50%;width:100%}
+.swipe-control .swipe-prev,.swipe-control .swipe-next{position:absolute;display:inline-block;width:1.6rem;height:1.6rem;top:-.8rem;text-indent:-100%;overflow:hidden}
+.swipe-control .swipe-prev{left:-1.6rem;background-repeat: no-repeat;}
+.swipe-control .swipe-prev:active{background-repeat: no-repeat;}
+.swipe-control .swipe-next{right:-1.6rem;background-repeat: no-repeat;}
+.swipe-control .swipe-next:active{background-repeat: no-repeat;}.swipe-control .swipe-prev{background-position:0rem 0rem}.swipe-control .swipe-prev:active{background-position:0rem -2rem}.swipe-control .swipe-next{background-position:0rem -4rem}.swipe-control .swipe-next:active{background-position:0rem -6rem}.swipe-control .swipe-prev,.swipe-control .swipe-prev:active,.swipe-control .swipe-next,.swipe-control .swipe-next:active{background-size: 1.6rem 7.6rem;background-image: url(../img/pkg/swipe_mobile_1_1_z.png)}}

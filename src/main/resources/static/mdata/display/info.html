@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>考场综合信息数据分析</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/vendor_c126d28.css" />
+    <link rel="stylesheet" href="static/main_771e693.css" />
+    <link rel="stylesheet" href="../../assets/css/mdata.css" />
+</head>
+<body class="p-info">
+	<div class="viewport ui-layout">
+		<div class="ui-subject">
+			<div class="text">
+				考场综合信息数据分析
+			</div>
+		</div>
+		<div class="ui-row">
+			<!-- box-1 -->
+			<div class="ui-box box-1">
+				<div class="ui-title">各场次考试通过率</div>
+				<div class="charts-pass ui-table-list">
+					<div class="head row">
+						<span class="item icon"></span>
+						<span class="item id">场次ID</span>
+						<span class="item">开考</span>
+						<span class="item">结束</span>
+						<span class="item">通过率</span>
+					</div>
+					<ul class="list" id="charts_pass_list"></ul>
+				</div>
+			</div>
+			<!-- /box-1 -->
+			<!-- box-2 -->
+			<div class="box-2">
+				<div class="box-wrap" id="charts_state">
+					<div class="charts-start small bl">
+						<div class="title">已结束</div>
+						<div class="txt">
+							<em class="end-value">0</em>
+						</div>
+					</div>
+					<div class="charts-start">
+						<div class="title"><em class="total-value">0</em>今日场次总数</div>
+						<div class="txt">
+							<em><span class="percent-value">0</span>%</em>
+							<p>综合通过率</p>
+						</div>
+					</div>
+					<div class="charts-start small tr">
+						<div class="title">已开场</div>
+						<div class="txt">
+							<em class="start-value">0</em>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /box-2 -->
+			<!-- box-3 -->
+			<div class="ui-box ui-layout box-3">
+				<div class="ui-title">考生交卷情况</div>
+				<div class="charts-post ui-table-list">
+					<div class="head row">
+						<span class="item icon"></span>
+						<span class="item id">场次ID</span>
+						<span class="item">结束</span>
+						<span class="item">考生数</span>
+						<span class="item">交卷<small>（比例）</small></span>
+					</div>
+					<ul class="list" id="charts_post_list"></ul>
+				</div>
+			</div>
+			<!-- /box-3 -->
+		</div>
+		<div class="ui-row ui-row-sec">
+			<div class="ui-box ui-row">
+				<div class="ui-layout ui-candidate">
+					<div class="ui-title">各时间段考生人数</div>
+					<div class="charts-candidate flex-item" id="charts_candidate"></div>
+				</div>
+				<div class="ui-layout flex-item ui-ampm">
+					<div class="ui-title">上下午场次数量对比</div>
+					<div class="charts-ampm flex-item" id="charts_ampm"></div>
+				</div>
+			</div>
+			<div class="ui-box ui-layout ui-candidate-week">
+				<div class="ui-title">本周考生数量对比</div>
+				<div class="charts-candidate-week flex-item" id="charts_candidate_week"></div>
+			</div>
+		</div>
+	</div>
+	<div class="swipe-control">
+		<a href="candidate.html" class="swipe-prev">&lt;</a>
+		<a href="address.html" class="swipe-next">&gt;</a>
+	</div>
+<script type="text/javascript" src="../public/js/vendors_da1765c.js"></script>
+<script type="text/javascript" src="../public/js/echarts_09eb663.js"></script>
+<script type="text/javascript" src="../public/js/mock_3255dbc.js"></script>
+<script type="text/javascript" src="../public/js/main_68d020e.js"></script>
+<script>
+	var params = window.location.search;
+	if(params.indexOf('full')!=-1) {
+		$(document.body).addClass('full')
+	}
+		require('display/info')
+</script>
+</body>
+</html>

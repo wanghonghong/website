@@ -1,0 +1,591 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	
+	<!-- header includes -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>网络综合设计实验 -试卷B</title>
+	<!-- <base href=""/> -->
+	<link href="common_files/css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="common_files/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/course.css" rel="stylesheet" type="text/css" />
+
+	<script>var video_root = "video/", columnid="2914";</script>
+	<script src="common_files/js/jquery-1.9.1.min.js"></script>
+	<script src="common_files/js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
+	<script src="common_files/js/json.js"></script>
+	<script src="common_files/js/common.js"></script>
+	<script src="js/course.js"></script>
+	<script src="common_files/js/bw_data.js"></script>
+	<script src="common_files/js/template.js"></script>
+	<script src="common_files/js/pinyin.js"></script>
+	
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+</head>
+<body class="introduction-bg ">
+	
+
+<!-- 通用头部 -->
+<div class="header header_in">
+	<div class="header_scope">
+		<div class="logo"></div>	
+		<div class="more"></div>
+		<div class="nav_container">
+			
+
+<!-- 通用头部 -->
+
+
+
+
+<ul class="nav">
+	<li id="nav_0"><a href="/">返回主页</a></li>
+	<li id="nav0"><a href="index.html">课程首页</a></li>
+	
+
+
+
+		<li id="nav0">
+			<a href="ke_cheng_jie_shao.html">课程信息</a>
+		</li>
+	
+		<li id="nav1">
+			<a href="jiao_shi_dao_yan.html">课程导学</a>
+		</li>
+	
+		<li id="nav2">
+			<a href="chapter_1_1.html">课程学习</a>
+		</li>
+	
+		<li id="nav3">
+			<a href="test_a.html">课程自测</a>
+		</li>
+	
+		<!--<li id="nav4">
+			<a href="zhuan_jia_jiang_zuo.html">拓展资源</a>
+		</li>-->
+	
+</ul>
+
+
+		</div>	
+	</div>	
+</div>
+
+
+
+
+
+
+	<div class="content">
+		<div class="scope">
+			<ul class="secBarTab">
+				
+
+					<li><a href="test_a.html">试卷A</a></li>
+				
+					<li><a href="test_b.html">试卷B</a></li>
+				
+					<li><a href="test_c.html">试卷C</a></li>
+				
+					<li><a href="test_d.html">试卷D</a></li>
+				
+			</ul>
+			<div class="t_topbox">
+				<div class="t_ta">
+					<span id="test_info"></span>
+				</div>
+				<div class="t_tb">
+					<span class="lf_shadow"></span>
+					<span class="rt_shadow"></span>
+				</div>
+			</div>
+			<script type="text/javascript">
+
+			    //初始时间
+			    var time = 0;
+			    var countTimer;
+			    $(document).ready(function(){
+			    	countTimer = setInterval(function(){
+				      time++;
+				      var m = parseInt(time/60);
+				      var s = time%60;
+				      $("#count_down").find("b").empty().html((m<10?("0"+m):m) +":" +(s<10?("0"+s):s));
+				    },1000);
+			    });
+
+
+			    function stopCount(){
+			    	clearInterval(countTimer);
+			    }
+
+		  </script>
+		  <div class="textBox">
+			  <div class="test_main">
+					<div class="inner">
+						<div class="test_b">
+							<div class="bw_exam" data-config="time:120">
+	<div class="bw_question_block" data-config="{type:0,score:20}">
+		<div class="bw_block_title">
+			{2}实验设计
+		</div>
+		<div class="bw_question" data-config="{ans:0}">
+			<div class="bw_ques">
+				<p>
+					实验二----网站信息架构设计
+				</p>
+				<p>
+					实验目的：
+				</p>
+				<p>
+					（1）理解网站信息结构设计的原理及重要性；
+				</p>
+				<p>
+					（2）调查网站信息结构组织的常用方法；
+				</p>
+				<p>
+					（3）掌握网站导航设计的基本原则与方法。
+				</p>
+				<p>
+					实验内容与要求：
+				</p>
+				<p>
+					一、&nbsp; 网站分析
+				</p>
+				<p>
+					选取你所熟悉的一家或几家电子商务网站，如豆瓣、亚马逊、当当、京东商城、凡客诚品、麦考林等，也可通过网址导航网站（如http://hao123.com）选取。从以下方面对该网站进行分析：
+				</p>
+				<p>
+					1.&nbsp; 网站的信息组织方式及采用此方法的原因
+				</p>
+				<p>
+					2.&nbsp; 网站信息架构的物理设计
+				</p>
+				<p>
+					3.&nbsp; 盈利模式，所提供广告服务的种类
+				</p>
+				<p>
+					4.&nbsp; 网站信息组织系统：是否包含精确和模糊的组织体系，具体内容
+				</p>
+				<p>
+					5.&nbsp; 导航：分析其导航设计，是否包含3种导航（结构性、关联性、可用性）。结构性导航中全局和局部导航条的特点、深度和广度的考虑，导航访问模型采取pogosticking or crabwalking。关联性导航是否采用元数据或推荐系统。可用性导航包括哪些内容。是否用到分页导航，其导航各有什么特点，列举其他网站的类似功能。
+				</p>
+二、&nbsp; 网站导航优化设计及建议
+			</div>
+			<div class="bw_ans">
+				（1）调查京东商城/当当网/卓越亚马逊（任选一、或其他电子商务网站）网站信息的组织，分别找到按线分类法、面分类法和主题分类法进行组织的页面（可部分截图，截图缩放至合适大小），列在下面，并说明采用此种方法组织的原因及优点。
+				<table class="cont_table" cellpadding="0" cellspacing="0">
+					<tbody>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="21">
+								<p>
+									分类法
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="368">
+								<p>
+									示例页面
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="120">
+								<p>
+									原因与优点
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="21">
+								<p>
+									线分类法
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="368">
+								<p>
+									<img src="upload_files/2914/clip_image002_1410764381013872.gif?913" onerror="top.reloadImg(this,'upload_files/2914/clip_image002_1410764381013872.gif')" height="252" width="360" /> 
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="120">
+								<p>
+									原因：这种方法简单，易操作，消费者可以按照自己的喜好迅速进入想了解的页面。
+								</p>
+								<p>
+									优点：层次性好，能较好的反映类目之间的逻辑关系；实用方便，既符合手工处理信息的传统习惯，又便于计算机处理信息。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="21">
+								<p>
+									面分类法
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="368">
+								<p>
+									<img src="upload_files/2914/clip_image004_1410764381013985.gif?550" onerror="top.reloadImg(this,'upload_files/2914/clip_image004_1410764381013985.gif')" height="241" width="350" /> 
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="120">
+								<p>
+									原因：这种方法可以让消费者按自己的意愿查找不同类目的商品，不受属性限制。
+								</p>
+								<p>
+									优点：具有较大的弹性，适应性强，可以组成任何类目，；便于计算机处理信息；易于添加和修改类目。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="21">
+								<p>
+									主题分类法
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="368">
+								<p>
+									<img src="upload_files/2914/clip_image006_1410764381013888.gif?823" onerror="top.reloadImg(this,'upload_files/2914/clip_image006_1410764381013888.gif')" height="321" width="323" /> 
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="120">
+								<p>
+									原因：列出了很多分类，可以直接按照给出的关键词进入查找页面。
+								</p>
+								<p>
+									优点：按主题标识组织起来，而且便于指引用户查询所需要信息资源。
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>
+					（2）网站信息构架的物理设计
+				</p>
+				<p>
+					设计快递查询系统的网站物理结构，包括文件名、路径以及说明。
+				</p>
+				<table class="cont_table" cellpadding="0" cellspacing="0">
+					<tbody>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="111">
+								<p>
+									文件名称
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="116">
+								<p>
+									全路径
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="199">
+								<p>
+									说 明
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="111">
+								<p>
+									index.jsp
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="116">
+								<p>
+									/index.jsp
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="199">
+								<p>
+									首页
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="111">
+								<p>
+									Images
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="116">
+								<p>
+									/images
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="199">
+								<p>
+									存放快递包裹等用到的图片
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="111">
+								<p>
+									Adm
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="116">
+								<p>
+									/adm
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="199">
+								<p>
+									快递公司的后台管理文件夹
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="111">
+								<p>
+									Order
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="116">
+								<p>
+									/order
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="199">
+								<p>
+									包裹订单处理文件夹
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="111">
+								<p>
+									Ware
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="116">
+								<p>
+									/ware
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="199">
+								<p>
+									包裹商品文件夹
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>
+					（3）访问并浏览卓越亚马逊，列举并分析其导航中上下文（语境）导航系统的特点和竞争力，并列举其他网站的类似功能
+				</p>
+				<p>
+					<img src="upload_files/2914/clip_image002_1410764469553707.png?879" onerror="top.reloadImg(this,'upload_files/2914/clip_image002_1410764469553707.png')" height="304" width="307" /> 
+				</p>
+				<p>
+					特点：
+				</p>
+				<p>
+					1、系统会根据消费者输入的关键词列出商品，并消费者推荐相匹配同类或者相关产品，还会有其他消费者常购买的产品组合出现。
+				</p>
+				<p>
+					2、向消费者推荐购买这个产品的消费者购买的其他商品。
+				</p>
+				<p>
+					竞争力：
+				</p>
+				<p>
+					1、组合形式的出现会有一定的折扣，诱导消费者购买其他产品。
+				</p>
+				<p>
+					&nbsp;2、相关产品也会引起消费者的更多消费，为自己的网站增加了消费量。
+				</p>
+				<p>
+					其他网站的类似功能：
+				</p>
+				<p>
+					<img src="upload_files/2914/clip_image004_1410764469554608.png?596" onerror="top.reloadImg(this,'upload_files/2914/clip_image004_1410764469554608.png')" height="235" width="291" /> 
+				</p>
+				<p>
+					这是麦考林网站的商品，任选2件其实也是一种诱导消费。
+				</p>
+				<p>
+					<img src="upload_files/2914/clip_image006_1410764469554174.png?449" onerror="top.reloadImg(this,'upload_files/2914/clip_image006_1410764469554174.png')" height="230" width="343" /> 
+				</p>
+				<p>
+					这是淘宝网的满立减，买就送的活动，也是一系列促销活动。
+				</p>
+				<p>
+					（4）网站导航优化设计
+				</p>
+				<p>
+					根据导航设计原则及步骤，优化并设计教务管理系统信息组织与导航方案：
+				</p>
+				<p>
+					首页：
+				</p>
+				<p>
+					<img src="upload_files/2914/baseimg_837.png" /> 
+				</p>
+				<p>
+					登录后首页
+				</p>
+				<p>
+					<img src="upload_files/2914/baseimg_740.png" /> 
+				</p>
+				<p>
+					登陆后一级页面
+				</p>
+				<p>
+					<img src="upload_files/2914/baseimg_463.png" /> 
+				</p>
+				<p>
+					登录后二级页面（如果有）
+				</p>
+				<p>
+					<img src="upload_files/2914/baseimg_481.png" /> 
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+							<script>var exam = bw.getExamData();
+							$("#test_info").html("本套测试题共有"+ exam.blocks.length +"个部分，"+ exam.count +"道题。");
+							//console.log(exam);</script>
+							<script id="js_tpl_1" type="text/html">
+								<ul class="old_ul">
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<li><%= exam.blocks[i].title.replace(/（.*?）/,'').replace(/\(.*?\)/,'') %></li>
+									<% } %>
+								</ul>
+
+								<div>
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<div class='tab'>
+											<h1><%= "一二三四五六七".substr(i, 1) %>、<%= exam.blocks[i].title %></h1>
+
+
+											<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+												<div class='questionbox' data-block-index='<%= i %>' data-ques-index='<%= n %>' data-type='<%= exam.blocks[i].type %>'>
+													<div class='question f-cb'> <!-- begin question -->
+														<div class='questionPos'><%= exam.index() %></div>
+														<div class='questionCon'><%= exam.blocks[i].questions[n].ques %></div>	
+													</div><!-- end question -->
+
+
+													<% if(exam.blocks[i].type == XUAN_ZE){ %>
+														<div class='question_choice'>
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m ++){ %>
+																	<label for="ans_<%= i %>_<%= n %>_<%= m %>">
+																		<li class='f-cb'>
+																			<div class='optionPos'><%= "ABCDEFG".substr(m, 1) %></div>
+																			<div class='optionCon'><%= exam.blocks[i].questions[n].ans[m] %></div>
+																		</li>
+																	</label>
+																<% } %>
+															</ul>
+														</div><!-- end question_choice -->
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "ABCDEFG".substr(m, 1) %>">
+																		<label for=""><%= "ABCDEFG".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>													
+													<% } %>
+
+													<% if(exam.blocks[i].type == PAN_DUAN){ %>
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < ['√','×'].length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "√×".substr(m, 1) %>">
+																		<label for=""><%= "√×".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>
+													<% } %>
+
+													<% if(exam.blocks[i].type == WEN_DA){ %>
+														<div class="select_choice f-cb">
+															<textarea></textarea>
+														</div>
+													<% } %>
+												</div><!-- end questionbox -->
+											<% } %>
+										</div>
+									<% } %>	<!-- end blocks -->
+								</div>
+							</script><script>document.write(template.render('js_tpl_1'));</script>
+							<script type="text/javascript">
+								$(".old_ul").appendTo(".t_ta");
+							</script>
+						</div>
+					</div>
+				</div>
+				<script>exam.idx = 1;</script>
+				<script id="js_tpl_2" type="text/html">
+			  	<div class="test_sidelist">
+						<div class="inner">
+							<p id="count_down">
+							  已用时：
+							  <b>00:00</b>
+							</p>
+							<ul>
+								<% for(var i=0; i<exam.blocks.length; i++){ %>
+								  <li class="li_fi">
+								    <a href="###"><%= exam.blocks[i].title %></a>
+								    <ul>
+								    	<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+								      	<li class="white question_num  question_num_<%= i %>_<%= n %>"><a href="###"><%= exam.index() %></a></li>
+								      <% } %>
+								    </ul>
+								  </li>
+							  <% } %>
+							</ul>
+							<p class="sub_btn">
+							  <input type="button" class="button white submit" value="提交" onclick="stopCount();exam.check()">
+							  <input type="button" class="button white reset" value="重置" onclick="window.location.reload()">	
+							</p>
+						</div>
+		 			</div>
+		 		</script><script>document.write(template.render('js_tpl_2'));</script>
+		 	</div>
+		</div>
+	</div>
+
+	
+
+<!-- 页脚内容 -->
+<div class="footer">
+	<p>&copy 2014-2017 <a href="http://www.zznet.info/" target="_blank"> 卓智网络科技有限公司</a> 版权所有</p>
+</div>
+	<div class="tool">
+	<ul class="toolpack">
+		<li><a href="###">信息反馈</a></li>
+		<li><a href="dictionary.html">课程词典</a></li>
+		<li><a href="###">课程笔记</a></li>
+		<li><a href="###">课程书签</a></li>
+	</ul>
+</div>
+	<a href="#" class="top">TOP</a>
+</body>
+</html>
+
+
+
+
+
+
+

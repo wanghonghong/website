@@ -1,0 +1,13 @@
+.ui-login{position:relative;height:835px;color:#99A9BF}
+.ui-login .ui-form-wrap{float:right;width:50%;padding-top:250px}
+.ui-login .slogan{margin:0 auto;width:210px;height:0;padding-top:45px;overflow:hidden}
+.ui-login .row{margin-bottom:30px;margin-bottom:20px\9}
+.ui-login .tip{height:30px;font-size:1.143em}
+.ui-login .ui-form{margin-top:50px;bottom:80px;width:380px;background-color:#fff;padding:80px 35px 30px;padding:30px 35px 30px\9;border-radius:10px;-webkit-box-shadow:0 4px 4px 2px rgba(50,64,87,.2);box-shadow:0 4px 4px 2px rgba(50,64,87,.2)}
+.ui-login .ui-form .ipt{padding:15px 0;background-color:transparent}
+.ui-login .ui-form .btn-submit{padding:15px 0;border-radius:25px}
+.ui-login .form-ctrl{height:48px;border-radius:25px;padding:0 20px 0 60px;-webkit-transition:border-color .3s,-webkit-box-shadow .3s;transition:border-color .3s,-webkit-box-shadow .3s;transition:border-color .3s,box-shadow .3s;transition:border-color .3s,box-shadow .3s,-webkit-box-shadow .3s}
+.ui-login .form-ctrl .iconfont{margin:15px 0 0 -40px;font-size:1.25em;line-height:1;-webkit-transition:color .3s;transition:color .3s}
+.ui-login .captcha .form-ctrl{float:left;width:150px}
+.ui-login .captcha img{float:right;height:40px;margin-top:5px}
+.ui-copyright{margin-top:50px;text-align:center}

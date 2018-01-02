@@ -1,0 +1,146 @@
+@charset "UTF-8";
+.viewport{min-width:1200px}
+.wrapper{max-width:1200px;margin:0 auto}
+.header{position:relative;height:70px;border-bottom:1px solid #000;background-color:#4c4c4c;z-index:10}
+.header .wrapper{height:100%}
+.header .menu-toggle{display:none}
+.header .logo{float:left;width:260px;height:0;margin-top:10px;padding-top:50px;overflow:hidden;background:url("../img/logo.png") no-repeat}
+.header .nav{float:right;height:100%;font-size:18px;line-height:70px;text-align:center}
+.header .nav a{display:block;color:#fff;border-left:1px solid transparent;border-right:1px solid transparent}
+.header .nav li:hover>a,.header .nav li.current>a,.header .nav li.active>a,.header .nav a:hover{background-color:#303030;border-color:#656565}
+.header .nav .sub{display:none;font-size:14px;background-color:#4c4c4c}
+.header .nav .sub li{border-top:1px solid #656565}
+.header .nav>li{float:left;width:110px}
+.header .nav>li:hover .sub{display:block}
+.footer{padding:20px 0;text-align:center;font-size:12px;color:#fff;background-color:#4c4c4c}
+.play,.developing{position:absolute;left:0;top:0;width:100%;height:100%;text-align:left;border-radius:10px}
+.developing{text-indent:-100%;overflow:hidden;background:url("../img/developing.png") rgba(0,0,0,.5) center center no-repeat}
+.play:hover{cursor:pointer;background:url("../img/ico-play.png") rgba(0,0,0,.1) center center no-repeat}
+.play:hover video{width:100%;height:100%}
+.play:hover.playing{cursor:default;background:0 0}
+
+
+
+
+
+
+
+
+
+
+
+
+.body{color:#7b7b7b}
+.part{height:650px}
+.part-gray{background-color:#f4f4f4}
+.subject{font-size:24px;font-weight:700}
+.subject,.intro .title{color:#2ea555}
+.title{font-size:18px;font-weight:700}
+.part-1 .picture{position:relative;float:left;width:560px;height:340px;margin:145px 0 0 45px;text-align:center}
+.part-1 .picture img{vertical-align:top;margin-top:35px}
+.part-1 .picture .tip{margin-top:20px}
+.part-1 .subject{position:relative;float:right;width:470px;margin:180px 60px 30px 0}
+.part-1 .btn-demo{display:none;position:absolute;right:0;top:0;font-size:14px;color:#fff;padding:5px 10px;border-radius:3px;background-color:#2ea555}
+.part-1 .btn-demo-large{display:inline-block;padding:8px 20px;font-size:1.143em;font-weight:700;color:#fff;border-radius:3px;background-color:#2ea555;margin-top:20px}
+.part-1 .intro{float:right;width:470px;line-height:1.8;margin-right:60px}
+.part-1 .intro .title{font-size:18px;font-weight:700}
+.part-1 .intro p{margin-bottom:.5em}
+.part-2 .subject,.part-3 .subject{margin-top:35px;text-align:center}
+.feature{margin-top:30px}
+.feature li{width:730px;padding-left:220px;margin-bottom:15px}
+.feature .item-1{margin-left:45px}
+.feature .item-2{margin-left:235px}
+.feature .item-3{margin-left:425px}
+.feature .ico{display:inline-block;width:180px;height:140px;margin-left:-220px;vertical-align:middle}
+.feature .intro{display:inline-block;vertical-align:middle;margin-left:50px}
+.feature .ico-f-1{background-repeat: no-repeat;}
+.feature .ico-f-2{background-repeat: no-repeat;}
+.feature .ico-f-3{background-repeat: no-repeat;}
+.function{position:relative;margin-top:30px;height:500px;background:url("../img/matrix/pro-bg.jpg") center center no-repeat}
+.function li{position:absolute;left:50%;top:50%;width:200px;padding-left:70px}
+.function .item-1{margin:-222px 0 0 27px}
+.function .item-2{margin:-110px 0 0 210px}
+.function .item-3{margin:38px 0 0 233px}
+.function .item-4{margin:120px 0 0 8px}
+.function .item-5{margin:120px 0 0 -315px}
+.function .item-6{margin:12px 0 0 -538px}
+.function .item-7{margin:-130px 0 0 -500px}
+.function .item-8{margin:-225px 0 0 -350px}
+.function .ico{float:left;width:60px;height:60px;margin-left:-70px}
+.function .ico-p-1{background-repeat: no-repeat;}
+.function .ico-p-2{background-repeat: no-repeat;}
+.function .ico-p-3{background-repeat: no-repeat;}
+.function .ico-p-4{background-repeat: no-repeat;}
+.function .ico-p-5{background-repeat: no-repeat;}
+.function .ico-p-6{background-repeat: no-repeat;}
+.function .ico-p-7{background-repeat: no-repeat;}
+.function .ico-p-8{background-repeat: no-repeat;}
+.feature .ico-f-1{background-position:0px 0px }.feature .ico-f-2{background-position:0px -160px }.feature .ico-f-3{background-position:0px -320px }.function .ico-p-1{background-position:-120px -480px }.function .ico-p-2{background-position:-120px -560px }.function .ico-p-3{background-position:-120px -640px }.function .ico-p-4{background-position:-120px -720px }.function .ico-p-5{background-position:-120px -800px }.function .ico-p-6{background-position:-120px -880px }.function .ico-p-7{background-position:-120px -960px }.function .ico-p-8{background-position:-120px -1040px }.feature .ico-f-1,.feature .ico-f-2,.feature .ico-f-3,.function .ico-p-1,.function .ico-p-2,.function .ico-p-3,.function .ico-p-4,.function .ico-p-5,.function .ico-p-6,.function .ico-p-7,.function .ico-p-8{background-image: url(../img/pkg/matrix_z.png)}@media  screen and (max-width:750px){body{-webkit-transition:-webkit-transform .3s ease-in-out;transition:-webkit-transform .3s ease-in-out;transition:transform .3s ease-in-out;transition:transform .3s ease-in-out,-webkit-transform .3s ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+body.menu-open{-webkit-transform:translateX(-7rem);-ms-transform:translateX(-7rem);transform:translateX(-7rem)}
+.viewport{min-width:inherit}
+.wrapper{max-width:inherit}
+.body{width:100%;overflow:hidden}
+.header{position:static;height:1.76rem;border-bottom:0;background-color:transparent}
+.header .wrapper{position:fixed;left:0;top:0;width:100%;height:1.76rem;padding-top:.4rem;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#4c4c4c;z-index:1000}
+.header .logo{float:none;width:5.8rem;height:0;padding-top:1rem;overflow:hidden;margin:0 auto;background-repeat: no-repeat;}
+.header .menu-toggle{display:block;position:absolute;right:.2rem;top:.3rem}
+.header .ico-menu{display:inline-block;vertical-align:top;width:1.1rem;height:1.1rem;background-repeat: no-repeat;}
+.header .nav{float:none;position:fixed;left:100%;top:0;width:7rem;height:100%;text-align:left;font-size:1.417em;line-height:1.76rem;-webkit-box-sizing:border-box;box-sizing:border-box;background:url("../mobile/img/nav-bg.png") #4c4c4c repeat-y;-webkit-background-size:7rem auto;background-size:7rem auto}
+.header .nav>li{float:none;width:auto}
+.header .nav>li.current{background-color:#303030}
+.header .nav>li.current .sub{display:block!important}
+.header .nav>li:hover .sub{display:none}
+.header .nav a{border:0;padding-left:1.4rem}
+.header .nav .sub{font-size:.882em;background-color:transparent}
+.header .nav .sub li{border:0}
+.header .nav li.active>a{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJBJREFUeNpi/P//PwMtARMDjcGgt4AfiJfiVQGKAzKxLRA/+A8BONWRYzArELcC8Z//CEA1C9SA+NR/TEAVC1KB+Mt/7IAiC0SAeP1//IBsC9yA+Nl/woBkCziAuB+I//0nDpBswdL/pIHB5wOaxwHdUhFd8gHdcjJdyiK6lKbImB+aZ3CqYRytkwfcAoAAAwAYyudfMefhKgAAAABJRU5ErkJggg==") #7e7e7e .6rem center no-repeat;-webkit-background-size:.48rem .48rem;background-size:.48rem .48rem}
+.footer{font-size:.857em}
+.play,.developing{border-radius:.2rem}
+.developing{-webkit-background-size:11.14rem 7.4rem;background-size:11.14rem 7.4rem}
+.play:hover{background:url("../img/ico-play.png") rgba(0,0,0,.1) center center no-repeat;-webkit-background-size:1.96rem 1.96rem;background-size:1.96rem 1.96rem}.part{height:auto;padding:1.6rem 1.2rem}
+.part .subject{font-size:1.5em;margin:0;text-align:left}
+.title{font-size:1.25em}
+.subject,.intro .title{color:#755a44}
+.part-1 .picture{float:none;width:auto;height:auto;margin:.6rem 0 0;padding:.4rem}
+.part-1 .picture img{width:100%}
+.part-1 .picture .tip{margin-top:.4rem}
+.part-1 .subject{float:none;width:auto;margin:0}
+.part-1 .btn-demo{display:block}
+.part-1 .btn-demo-large{display:none}
+.part-1 .intro{float:none;width:auto;margin:1rem 0 0}
+.feature{margin-top:1.2rem;text-align:center}
+.feature li{width:auto;padding-left:0;margin:0 0 1.6rem!important}
+.feature li::before{display:block;font-size:1.25em;font-weight:700;color:#755a44;margin-bottom:.6rem}
+.feature .ico{width:9.6rem;margin:0}
+.feature .intro{display:block;margin:1rem 0 0}
+.feature .intro p{text-indent:2em}
+.feature .title{font-size:1em;margin-bottom:.4rem;font-weight:400}
+.feature .title em{display:none}
+.feature .item-1::before{content:'特点一'}
+.feature .item-2::before{content:'特点二'}
+.feature .item-3::before{content:'特点三'}
+.feature .ico-f-1{height:6rem;background-repeat: no-repeat;}
+.feature .ico-f-2{height:7.4rem;background-repeat: no-repeat;}
+.feature .ico-f-3{height:6.4rem;background-repeat: no-repeat;}
+.function{margin-top:1.6rem;height:auto;background:transparent}
+.function li{position:static;width:auto;padding-left:3rem;margin:0 0 1.6rem!important}
+.function .ico{float:left;width:2.4rem;height:2.4rem;margin-left:-3rem}
+.function .ico-p-1{background-repeat: no-repeat;}
+.function .ico-p-2{background-repeat: no-repeat;}
+.function .ico-p-3{background-repeat: no-repeat;}
+.function .ico-p-4{background-repeat: no-repeat;}
+.function .ico-p-5{background-repeat: no-repeat;}
+.function .ico-p-6{background-repeat: no-repeat;}
+.function .ico-p-7{background-repeat: no-repeat;}
+.function .ico-p-8{background-repeat: no-repeat;}.header .logo{background-position:-3.8rem 0rem}.header .ico-menu{background-position:-8.5rem -1.4rem}.feature .ico-f-1{background-position:0rem -2.9rem}.feature .ico-f-2{background-position:0rem -9.3rem}.feature .ico-f-3{background-position:0rem -17.1rem}.function .ico-p-1{background-position:-7.2rem -23.9rem}.function .ico-p-2{background-position:-7.2rem -26.7rem}.function .ico-p-3{background-position:-7.2rem -29.5rem}.function .ico-p-4{background-position:-7.2rem -32.3rem}.function .ico-p-5{background-position:-7.2rem -35.1rem}.function .ico-p-6{background-position:-7.2rem -37.9rem}.function .ico-p-7{background-position:-7.2rem -40.7rem}.function .ico-p-8{background-position:-7.2rem -43.5rem}.header .logo,.header .ico-menu,.feature .ico-f-1,.feature .ico-f-2,.feature .ico-f-3,.function .ico-p-1,.function .ico-p-2,.function .ico-p-3,.function .ico-p-4,.function .ico-p-5,.function .ico-p-6,.function .ico-p-7,.function .ico-p-8{background-size: 9.6rem 45.9rem;background-image: url(../img/pkg/matrix_mobile_1_1_z.png)}}@media  screen and (min-width:320px) and (max-width:750px){html{font-size:21.33px}
+body{font-size:12px}}@media  screen and (min-width:360px) and (max-width:750px){html{font-size:24px}
+body{font-size:12px}}@media  screen and (min-width:375px) and (max-width:750px){html{font-size:25px}
+body{font-size:13px}}@media  screen and (min-width:384px) and (max-width:750px){html{font-size:25.6px}
+body{font-size:14px}}@media  screen and (min-width:400px) and (max-width:750px){html{font-size:26.67px}
+body{font-size:14px}}@media  screen and (min-width:414px) and (max-width:750px){html{font-size:27.6px}
+body{font-size:14px}}@media  screen and (min-width:424px) and (max-width:750px){html{font-size:28.27px}
+body{font-size:14px}}@media  screen and (min-width:480px) and (max-width:750px){html{font-size:32px}
+body{font-size:15.36px}}@media  screen and (min-width:540px) and (max-width:750px){html{font-size:36px}
+body{font-size:17.28px}}@media  screen and (min-width:720px) and (max-width:750px){html{font-size:48px}
+body{font-size:23.04px}}@media  screen and (min-width:750px) and (max-width:750px){html{font-size:50px}
+body{font-size:24px}}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>今日考生综合数据分析</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/vendor_c126d28.css" />
+    <link rel="stylesheet" href="static/main_771e693.css" />
+    <link rel="stylesheet" href="../../assets/css/mdata.css" />
+</head>
+<body class="p-candidate">
+	<div class="viewport ui-layout">
+		<div class="ui-subject">
+			<div class="text">
+				今日考生综合数据分析
+			</div>
+		</div>
+		<div class="ui-row">
+			<!-- box-1 -->
+			<div class="ui-box box-1">
+				<!-- 考生性别比例 -->
+				<div class="ui-title">考生性别比例</div>
+				<div class="charts-sex" id="charts_sex">
+					<div class="ui-progress">
+						<div class="label"><i class="ico-man"></i><span class="name">男生</span></div>
+						<div class="value">0</div>
+						<div class="progress">
+							<div class="percent blue" style="left:0%"><span class="percent-value">0</span>%</div>
+							<div class="bar bg-blue" style="width:0%"></div>
+						</div>
+					</div>
+					<div class="ui-progress">
+						<div class="label"><i class="ico-woman"></i><span class="name">女生</span></div>
+						<div class="value">0</div>
+						<div class="progress">
+							<div class="percent red" style="left:0%"><span class="percent-value">0</span>%</div>
+							<div class="bar bg-red" style="width:0%"></div>
+						</div>
+					</div>
+				</div>
+				<!-- /考生性别比例 -->
+				<!-- 考生交卷情况 -->
+				<div class="ui-title">考生交卷情况</div>
+				<div class="ui-row">
+					<div class="charts-post">
+						<div class="charts-container" id="charts_post"></div>
+						<div class="txt"><i class="ico-paper"></i><br>已交卷</div>
+					</div>
+					<div class="flex-item charts-post-detail">
+						<ul class="post-list" id="post_list"></ul>
+						<ul class="post-stat" id="post_stat">
+							<li>
+								<span class="label">目前已交卷人数：</span><span class="posted-value">0</span>
+							</li>
+							<li>
+								<span class="label">当前尚未交卷人数：</span><span class="unpost-value">0</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /考生交卷情况 -->
+			</div>
+			<!-- /box-1 -->
+			<!-- box-2 -->
+			<div class="box-2">
+				<div class="box-wrap" id="charts_start">
+					<div class="charts-start small tl">
+						<div class="title">已开卷</div>
+						<div class="txt">
+							<em class="start-value">0</em>
+						</div>
+					</div>
+					<div class="charts-start">
+						<div class="title">当前开考情况</div>
+						<div class="txt">
+							<em class="total-value">0</em>
+							<p>今日考生总人数</p>
+						</div>
+					</div>
+					<div class="charts-start small br">
+						<div class="title">未开卷</div>
+						<div class="txt">
+							<em class="unstart-value">0</em>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /box-2 -->
+			<!-- box-3 -->
+			<div class="ui-box ui-layout box-3">
+				<div class="ui-title">各科平均得分</div>
+				<div class="charts-score" id="charts_score"></div>
+			</div>
+			<!-- /box-3 -->
+		</div>
+		<div class="ui-row ui-box ui-row-sec">
+			<div class="ui-layout flex-item">
+				<div class="ui-title">同类科目历史通过率</div>
+				<div class="charts-pass flex-item" id="charts_pass"></div>
+			</div>
+			<div class="ui-layout charts-today-pass" id="charts_today_pass">
+				<div class="ui-title">今日考试通过率</div>
+				<div class="stat">
+					整体通过率 ：<em><span class="percent-value">0</span>%</em><i class="ico-up"></i><i class="ico-down"></i>
+				</div>
+				<ul class="today-list"></ul>
+			</div>
+		</div>
+	</div>
+	<div class="swipe-control">
+		<a href="../../mdata.html" class="swipe-prev">&lt;</a>
+		<a href="info.html" class="swipe-next">&gt;</a>
+	</div>
+<script type="text/javascript" src="../public/js/vendors_da1765c.js"></script>
+<script type="text/javascript" src="../public/js/echarts_09eb663.js"></script>
+<script type="text/javascript" src="../public/js/mock_3255dbc.js"></script>
+<script type="text/javascript" src="../public/js/main_68d020e.js"></script>
+<script>
+	var params = window.location.search;
+	if(params.indexOf('full')!=-1) {
+		$(document.body).addClass('full')
+	}
+		require('display/candidate')
+</script>
+</body>
+</html>

@@ -1,0 +1,660 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	
+	<!-- header includes -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>网络综合设计实验 -试卷A</title>
+	<!-- <base href=""/> -->
+	<link href="common_files/css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="common_files/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/course.css" rel="stylesheet" type="text/css" />
+
+	<script>var video_root = "video/", columnid="2216";</script>
+	<script src="common_files/js/jquery-1.9.1.min.js"></script>
+	<script src="common_files/js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
+	<script src="common_files/js/json.js"></script>
+	<script src="common_files/js/common.js"></script>
+	<script src="js/course.js"></script>
+	<script src="common_files/js/bw_data.js"></script>
+	<script src="common_files/js/template.js"></script>
+	<script src="common_files/js/pinyin.js"></script>
+	
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+</head>
+<body class="introduction-bg ">
+	
+
+<!-- 通用头部 -->
+<div class="header header_in">
+	<div class="header_scope">
+		<div class="logo"></div>	
+		<div class="more"></div>
+		<div class="nav_container">
+			
+
+<!-- 通用头部 -->
+
+
+
+
+<ul class="nav">
+	<li id="nav_0"><a href="/">返回主页</a></li>
+	<li id="nav0"><a href="index.html">课程首页</a></li>
+	
+
+
+
+		<li id="nav0">
+			<a href="ke_cheng_jie_shao.html">课程信息</a>
+		</li>
+	
+		<li id="nav1">
+			<a href="jiao_shi_dao_yan.html">课程导学</a>
+		</li>
+	
+		<li id="nav2">
+			<a href="chapter_1_1.html">课程学习</a>
+		</li>
+	
+		<li id="nav3">
+			<a href="test_a.html">课程自测</a>
+		</li>
+	
+		<!--<li id="nav4">
+			<a href="zhuan_jia_jiang_zuo.html">拓展资源</a>
+		</li>-->
+	
+</ul>
+
+
+		</div>	
+	</div>	
+</div>
+
+
+
+
+
+
+	<div class="content">
+		<div class="scope">
+			<ul class="secBarTab">
+				
+
+					<li><a href="test_a.html">试卷A</a></li>
+				
+					<li><a href="test_b.html">试卷B</a></li>
+				
+					<li><a href="test_c.html">试卷C</a></li>
+				
+					<li><a href="test_d.html">试卷D</a></li>
+				
+			</ul>
+			<div class="t_topbox">
+				<div class="t_ta">
+					<span id="test_info"></span>
+				</div>
+				<div class="t_tb">
+					<span class="lf_shadow"></span>
+					<span class="rt_shadow"></span>
+				</div>
+			</div>
+			<script type="text/javascript">
+
+			    //初始时间
+			    var time = 0;
+			    var countTimer;
+			    $(document).ready(function(){
+			    	countTimer = setInterval(function(){
+				      time++;
+				      var m = parseInt(time/60);
+				      var s = time%60;
+				      $("#count_down").find("b").empty().html((m<10?("0"+m):m) +":" +(s<10?("0"+s):s));
+				    },1000);
+			    });
+
+
+			    function stopCount(){
+			    	clearInterval(countTimer);
+			    }
+
+		  </script>
+		  <div class="textBox">
+			  <div class="test_main">
+					<div class="inner">
+						<div class="test_a">
+							<div class="bw_exam" data-config="time:120">
+	<div class="bw_question_block" data-config="{type:0,score:20}">
+		<div class="bw_block_title">
+			{2}实验设计
+		</div>
+		<div class="bw_question" data-config="{ans:0}">
+			<div class="bw_ques">
+				<p>
+					实验一 —— 网站需求分析
+				</p>
+				<p>
+					实验目的：
+				</p>
+				<p>
+					选择某一行业中的一家网站，确认网站开发主体需求，明确网站用户需求和网站定位。
+				</p>
+				<p>
+					实验内容与要求：
+				</p>
+				<p>
+					选具体的一个网站集资料，进行需求分析。
+				</p>
+				<p>
+					1、背景分析——目标网站所处行业的概要分析，目标网站的基本概况（经营领域，面向的目标人群，业务类型，市场规模等）
+				</p>
+				<p>
+					2、掌握现状——目标网站的信息化基础（有无信息化应用，网站主要包含的模块，网站的受众主要有哪些？了解不同人群的具体特征和需求特点，网站的定位，包括网站界面设计风格，浏览特色，主题等等。）
+				</p>
+				<p>
+					3、具体分析该网站——根据第二点所提到的问题进行具体调查和分析，及经营中遇到的困惑和问题，已经开展应用的在应用过程中出现哪些问题。哪些方面的改进需求？
+				</p>
+				<p>
+					4、提交一份调查报告，包括上述几方面内容。分析总结要明确具体。
+				</p>
+<span></span> 
+				<p>
+					<br />
+				</p>
+			</div>
+			<div class="bw_ans">
+				《倾听》音乐网需求分析
+				<p>
+					一、背景分析
+				</p>
+				<p>
+					1.2立项原因概述： 几乎所有人都喜欢音乐，原版歌曲是很多网站都能找到的，但是很多网友喜欢翻唱歌曲、伴奏以及自己创作歌曲，而且他们需要一个平台来做这方面的交流，这是一个很开阔的空间，需求大，但是这样的平台目前较少，很有发展空间。
+				</p>
+				<p>
+					1.3 可行性分析：&nbsp; 歌曲交流平台是一个广阔的空间，需求较大，从各类人群的生活方式看，各个阶层的人都或多或少有喜欢的音乐，这是一个目前看来非常稳定而持久的产业方向。
+				</p>
+				<p>
+					1. 网站概述：
+				</p>
+				<p>
+					2.1面向的用户人群：
+				</p>
+				<p>
+					各类人群，主要是青年人居多
+				</p>
+				<p>
+					2.2实现目标：
+				</p>
+				<p>
+					&nbsp; （1）能提供公告功能，让社区居民能实时了解《倾听》的最新状况
+				</p>
+				<p>
+					&nbsp; （2）系统运行要高效，费用尽量低，注重实用性。
+				</p>
+				<p>
+					（3）该网站提供一种更加方便、高效资源交流的工作方式。
+				</p>
+				<p>
+					（4）系统实现及时获取工作提供者的信息和工作申请者的信息，后台自动
+				</p>
+				<p>
+					地快速、准确地将两者进行匹配，得到最优匹配并及时反馈信息。
+				</p>
+				<p>
+					（5）最终为更多的歌友建立交流的平台，改变以往独唱独赏的弊端。
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					《倾听》音乐网包含下面几个模块：
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					重新登陆模块
+				</p>
+				<p>
+					主要功能：登录失败或注销后，重新登录。
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					论坛模块
+				</p>
+				<p>
+					主要功能：该模块用于各用户做交流用，用户登录后可以在论坛中发帖、&nbsp;&nbsp;&nbsp; 回帖。未登录用户可以以“游客”身份浏览帖子，但不能回帖和发帖。论坛管理员可以对帖子进行管理。
+				</p>
+				<p>
+					会员金币
+				</p>
+				<p>
+					主要功能：该模块主要是会员登录后，能每天领取一定的倾听币，上传歌曲的时候，上传者会设置下载所需要的倾听币，下载者下载则会扣除相应的倾听币。
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					留言模块
+				</p>
+				<p>
+					主要功能：该模块主要作用是为用户和管理员搭建一个交流平台，用户可以给管理员留言，提出建议或意见。必须先登录然后才能留言。管理员可以对留言进行回复和删除操作。
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					音乐上传下载模块
+				</p>
+				<p>
+					主要功能：该模块是《倾听》音乐网的核心功能模块，会员登录后上传和下载歌曲（主要是翻唱歌曲和伴奏），未登录用户只能浏览歌曲，不能下载和上传。管理员可以对歌曲进行管理。
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					会员资料修改模块
+				</p>
+				<p>
+					主要功能：用户登录后可以修改会员资料、身份认证、账户安全设
+				</p>
+				<p>
+					置等。
+				</p>
+				<p>
+					本系统最终实现后各部分的关系如下图所示：
+				</p>
+				<p>
+					<p class="bw_image_center">
+						<img src="upload_files/2216/baseimg_272.png" height="288" width="546" />
+					</p>
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					2.3项目开发要求：
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp; （1）项目开发规范统一：模块划分，代码编写均遵照命名规范文档；
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp; （2）程序优化、安全并要有良好的可扩展性；
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp; （3）用户界面简洁明了、操作简单实用；
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp; （4）与用户保持良好的沟通，及时根据用户新的需求改善系统功能；
+				</p>
+				<p>
+					&nbsp; 2.4 开发工具：
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 开发平台：Jsp+JavaBean+servlet+Sql
+Server
+				</p>
+				<p>
+					开发工具：Tomcat+Jdk+MyEclipse+Sql Server2008
+				</p>
+				<p>
+					开发周期：6个星期
+				</p>
+				<p>
+					2. 具体分析：
+				</p>
+				<p>
+					3.1 实现概述：
+				</p>
+				<p>
+					&nbsp;&nbsp; 该系统主要实现了以MVC模式化开发为基础，CSS样式美化页面，JDBC数据库连接以进行注册、登录以及歌曲的上传下载等交互功能。
+				</p>
+				<p>
+					3.2 相关工作人员职能：
+				</p>
+				<p>
+					（1）职能：&nbsp; 系统管理者主要对用户的留言、论坛帖子等管理。系统维护者主要对系统出现的一些异常情况进行处理。
+				</p>
+				<p>
+					（2）具体工作：接受并处理工作提供者提供的工作；
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 接受并处理工作申请者的请求；
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 维护网站系统及硬件设施；
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 将工作中对系统的新要求反馈给开发者；
+				</p>
+				<p>
+					3.3 注册会员：
+				</p>
+				<p>
+					（1）描述：作为系统的使用者
+				</p>
+				<p>
+					（2）该用户需要的功能：
+				</p>
+				<p>
+					注册：用户名、密码、真实姓名或者具体单位名、身份证号、联系地址、联系电话、提供的工作类型
+				</p>
+				<p>
+					登录：用用户名和密码登录。
+				</p>
+				<p>
+					更改注册信息、上传下载资源。
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 可向管理员留言请求帮助或提出意见、建议。
+				</p>
+				<p>
+					注销登录，离站
+				</p>
+				<p>
+					3. 界面设计:
+				</p>
+				<p>
+					&nbsp; 主界面初步设计如下：
+				</p>
+				<p>
+					<br />
+				</p>
+				<p class="bw_image_center">
+					<img src="upload_files/2216/clip_image018_1410764146336592.png?914" onerror="top.reloadImg(this,'upload_files/2216/clip_image018_1410764146336592.png')" height="235" width="417" /> 
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					5．数据库设计：（Sql Server）
+				</p>
+				<p>
+					五个表：
+				</p>
+				<p>
+					user表：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 记录会员的基本信息（字段名有：ID，userName，password，identityCard，email，QTCoin，image）
+				</p>
+				<p>
+					forum表：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 记录论坛的信息（字段名有：postId，postName，owner， createTime，responseNum，browseNum,noteContext）
+				</p>
+				<p>
+					toforum表：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 记录论坛信息的回复信息（字段名有：responseId，userName，storeyId，responseMess，）
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					music表：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 记录资源的内容（字段名有：musicName，uploadUser，uploadTime，downloadNum，QTCoin）
+				</p>
+				<p>
+					message表：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 记录留言信息（字段名有：messageId，userName，messageTime，messageContext）
+				</p>
+				<p>
+					其中：forum表和toforum表通过“postId” ，“responseId”两个主键两个表相关联。
+				</p>
+				<p>
+					<p class="bw_image_center">
+						<img src="upload_files/2216/clip_image020_141076414633683.png?846" onerror="top.reloadImg(this,'upload_files/2216/clip_image020_141076414633683.png')" height="298" width="331" />
+					</p>
+				</p>
+				<p>
+					<p class="bw_image_center">
+						<img src="upload_files/2216/clip_image022_1410764146337542.png?866" onerror="top.reloadImg(this,'upload_files/2216/clip_image022_1410764146337542.png')" height="107" width="276" />
+					</p>
+				</p>
+				<p>
+					<p class="bw_image_center">
+						<img src="upload_files/2216/clip_image024_1410764146339107.png?572" onerror="top.reloadImg(this,'upload_files/2216/clip_image024_1410764146339107.png')" height="118" width="268" />
+					</p>
+				</p>
+				<p>
+					<p class="bw_image_center">
+						<img src="upload_files/2216/clip_image026_1410764146339503.png?60" onerror="top.reloadImg(this,'upload_files/2216/clip_image026_1410764146339503.png')" height="121" width="254" />
+					</p>
+				</p>
+				<p>
+					<p class="bw_image_center">
+						<img src="upload_files/2216/clip_image028_14107641463401.png?193" onerror="top.reloadImg(this,'upload_files/2216/clip_image028_14107641463401.png')" height="148" width="260" />
+					</p>
+				</p>
+				<p>
+					6．特别说明
+				</p>
+				<p>
+					6.1 系统的安全性：
+				</p>
+				<p>
+					保证管理者和注册用户的密码安全，数据库访问控制；
+				</p>
+				<p>
+					管理员应具有一定网络安全及防黑知识；
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					6.2 系统可维护性：
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp; 系统管理者须懂得一定的服务器应用、SQL数据库应用、硬件维护、IIS配置等方面的技能，必要时可以对其进行培训
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					6.3 系统的灵活性：
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp; 系统应该具有良好的功能可扩充性，以应对未来用户的更高的要求；
+				</p>
+				<p>
+					<br />
+				</p>
+				<p>
+					6.4 硬件需求：（首先考虑现有硬件条件）
+				</p>
+				<p>
+					&nbsp;&nbsp; 管理员端：Windows 2000 server或以上
+				</p>
+				<p>
+					&nbsp;&nbsp; 客户端：&nbsp; 建议IE5.0或以上
+				</p>
+				<p>
+					&nbsp;&nbsp; 服务器：&nbsp; 存储各种数据，处理相应终端请求
+				</p>
+				<p>
+					&nbsp;&nbsp; 中转器：&nbsp; 数据传输中转站，减小服务器压力
+				</p>
+				<p>
+					6.5 用户界面：
+				</p>
+				<p>
+					&nbsp;&nbsp; 人性化、交互性强的网页形式，简单易用，简洁而不失大方，充分合理安排用户功能各种数据表格格式直观易操作，
+				</p>
+				<p>
+					&nbsp; 6.6 数据管理能力要求：
+				</p>
+				<p>
+					&nbsp;&nbsp; 本系统使用SQL server ，可利用其自带的各种功能进行管理。
+				</p>
+				<p>
+					&nbsp;&nbsp; 对不同用户信息和其它信息分类存储，使用索引查找。&nbsp;
+				</p>
+				<p>
+					6.7 故障处理：
+				</p>
+				<p>
+					&nbsp; 系统运行中难免出现一些故障，对此提出以下建议和要求：
+				</p>
+				<p>
+					（1）对用户提交的重要资料及时备份。（如：当用户修改注册资料时要及时更新系统资料备份，以便于系统崩溃后资料的正确恢复。）
+				</p>
+				<p>
+					（2）当系统数据库发生故障时，及时向用户返回相关故障原因。
+				</p>
+				<p>
+					（3）公开管理员电子邮箱，联系电话等，以便用户和管理员可以及时联系。
+				</p>
+				<p>
+					（4）做好数据库和服务器的日常维护工作，出现故障时可与开发者联系帮助解决。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+							<script>var exam = bw.getExamData();
+							$("#test_info").html("本套测试题共有"+ exam.blocks.length +"个部分，"+ exam.count +"道题。");
+							//console.log(exam);</script>
+							<script id="js_tpl_1" type="text/html">
+								<ul class="old_ul">
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<li><%= exam.blocks[i].title.replace(/（.*?）/,'').replace(/\(.*?\)/,'') %></li>
+									<% } %>
+								</ul>
+
+								<div>
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<div class='tab'>
+											<h1><%= "一二三四五六七".substr(i, 1) %>、<%= exam.blocks[i].title %></h1>
+
+
+											<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+												<div class='questionbox' data-block-index='<%= i %>' data-ques-index='<%= n %>' data-type='<%= exam.blocks[i].type %>'>
+													<div class='question f-cb'> <!-- begin question -->
+														<div class='questionPos'><%= exam.index() %></div>
+														<div class='questionCon'><%= exam.blocks[i].questions[n].ques %></div>	
+													</div><!-- end question -->
+
+
+													<% if(exam.blocks[i].type == XUAN_ZE){ %>
+														<div class='question_choice'>
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m ++){ %>
+																	<label for="ans_<%= i %>_<%= n %>_<%= m %>">
+																		<li class='f-cb'>
+																			<div class='optionPos'><%= "ABCDEFG".substr(m, 1) %></div>
+																			<div class='optionCon'><%= exam.blocks[i].questions[n].ans[m] %></div>
+																		</li>
+																	</label>
+																<% } %>
+															</ul>
+														</div><!-- end question_choice -->
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "ABCDEFG".substr(m, 1) %>">
+																		<label for=""><%= "ABCDEFG".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>													
+													<% } %>
+
+													<% if(exam.blocks[i].type == PAN_DUAN){ %>
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < ['√','×'].length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "√×".substr(m, 1) %>">
+																		<label for=""><%= "√×".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>
+													<% } %>
+
+													<% if(exam.blocks[i].type == WEN_DA){ %>
+														<div class="select_choice f-cb">
+															<textarea></textarea>
+														</div>
+													<% } %>
+												</div><!-- end questionbox -->
+											<% } %>
+										</div>
+									<% } %>	<!-- end blocks -->
+								</div>
+							</script><script>document.write(template.render('js_tpl_1'));</script>
+							<script type="text/javascript">
+								$(".old_ul").appendTo(".t_ta");
+							</script>
+						</div>
+					</div>
+				</div>
+				<script>exam.idx = 1;</script>
+				<script id="js_tpl_2" type="text/html">
+			  	<div class="test_sidelist">
+						<div class="inner">
+							<p id="count_down">
+							  已用时：
+							  <b>00:00</b>
+							</p>
+							<ul>
+								<% for(var i=0; i<exam.blocks.length; i++){ %>
+								  <li class="li_fi">
+								    <a href="###"><%= exam.blocks[i].title %></a>
+								    <ul>
+								    	<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+								      	<li class="white question_num  question_num_<%= i %>_<%= n %>"><a href="###"><%= exam.index() %></a></li>
+								      <% } %>
+								    </ul>
+								  </li>
+							  <% } %>
+							</ul>
+							<p class="sub_btn">
+							  <input type="button" class="button white submit" value="提交" onclick="stopCount();exam.check()">
+							  <input type="button" class="button white reset" value="重置" onclick="window.location.reload()">	
+							</p>
+						</div>
+		 			</div>
+		 		</script><script>document.write(template.render('js_tpl_2'));</script>
+		 	</div>
+		</div>
+	</div>
+
+	
+
+<!-- 页脚内容 -->
+<div class="footer">
+	<p>&copy 2014-2017 <a href="http://www.zznet.info/" target="_blank"> 卓智网络科技有限公司</a> 版权所有</p>
+</div>
+	<div class="tool">
+	<ul class="toolpack">
+		<li><a href="###">信息反馈</a></li>
+		<li><a href="dictionary.html">课程词典</a></li>
+		<li><a href="###">课程笔记</a></li>
+		<li><a href="###">课程书签</a></li>
+	</ul>
+</div>
+	<a href="#" class="top">TOP</a>
+</body>
+</html>
+
+
+
+
+
+
+

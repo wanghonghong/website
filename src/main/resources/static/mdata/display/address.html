@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>考场综合数据分析</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/vendor_c126d28.css" />
+    <link rel="stylesheet" href="static/main_771e693.css" />
+    <link rel="stylesheet" href="../../assets/css/mdata.css" />
+</head>
+<body class="p-address">
+	<div class="viewport ui-layout">
+		<div class="ui-subject"><div class="text">
+				考场综合数据分析
+			</div></div>
+		<div class="ui-row">
+			<div class="ui-layout ui-box ui-student">
+				<div class="ui-title">今日各考场承载总考生数</div>
+				<div class="flex-item" id="charts_student"></div>
+			</div>
+			<div class="ui-layout ui-box ui-times">
+				<div class="ui-title">今日各考场承载考试场次</div>
+				<ul class="ui-times-list flex-item" id="times_list"></ul>
+			</div>
+		</div>
+		<div class="ui-row ui-row-sec">
+			<div class="ui-layout ui-box ui-proctor">
+				<div class="ui-title">今日各考场监考老师信息</div>
+				<div class="charts-proctor flex-item ui-table-list" id="charts_proctor">
+					<div class="head row">
+						<span class="item name">学校</span>
+						<span class="item">时间</span>
+						<span class="item proctor">监考员</span>
+					</div>
+					<ul class="list" id="charts_proctor_list"></ul>
+				</div>
+			</div>
+			<div class="ui-layout ui-box ui-course">
+				<div class="ui-title">今日各科目承载考生数</div>
+				<div class="ui-row flex-item" id="charts_course"></div>
+			</div>
+		</div>
+	</div>
+	<div class="swipe-control">
+		<a href="info.html" class="swipe-prev">&lt;</a>
+		<a href="answer.html" class="swipe-next">&gt;</a>
+	</div>
+<script type="text/javascript" src="../public/js/vendors_da1765c.js"></script>
+<script type="text/javascript" src="../public/js/echarts_09eb663.js"></script>
+<script type="text/javascript" src="../public/js/mock_3255dbc.js"></script>
+<script type="text/javascript" src="../public/js/main_68d020e.js"></script>
+<script>
+	var params = window.location.search;
+	if(params.indexOf('full')!=-1) {
+		$(document.body).addClass('full')
+	}
+		require('display/address')
+</script>
+</body>
+</html>

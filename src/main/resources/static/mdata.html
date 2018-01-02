@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no,email=no">
+	<title>卓智-智慧资源</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/mdata.css" />
+</head>
+
+<body>
+	<div class="viewport">
+		<a href="./" class="btn-back"><i class="ico-back"></i>返回首页</a>
+		<div class="swipe swipe-data" id="swipe_data">
+			<div class="swipe-box">
+				<ul class="swipe-wrap" id="swipe_container">
+				</ul>
+			</div>
+			<div class="swipe-page"></div>
+			<div class="swipe-control">
+				<a href="javascript:void(0);" class="swipe-prev">&lt;</a>
+				<a href="javascript:void(0);" class="swipe-next">&gt;</a>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="assets/js/base.js"></script>
+<script type="text/javascript" src="assets/js/video.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+		var _data = [{
+			picture: './assets/img/mdata/1.jpg',
+			title: '教师资源库活跃度'
+		}, {
+			picture: './assets/img/mdata/2.jpg',
+			title: '资源趋势活跃度'
+		}, {
+			picture: './assets/img/mdata/3.jpg',
+			title: '精品资源'
+		}];
+
+		if(device.isMobile) {
+			_data = [
+				{
+					picture: './assets/mobile/img/mdata/1.jpg',
+					title: '教师资源库活跃度'
+				}, {
+					picture: './assets/mobile/img/mdata/2.jpg',
+					title: '教师资源库活跃度'
+				}, {
+					picture: './assets/mobile/img/mdata/3.jpg',
+					title: '教师资源库活跃度'
+				},
+				{
+					picture: './assets/mobile/img/mdata/4.jpg',
+					title: '资源趋势活跃度'
+				}, {
+					picture: './assets/mobile/img/mdata/5.jpg',
+					title: '资源趋势活跃度'
+				}, {
+					picture: './assets/mobile/img/mdata/6.jpg',
+					title: '资源趋势活跃度'
+				},
+				{
+					picture: './assets/mobile/img/mdata/7.jpg',
+					title: '精品资源'
+				}, {
+					picture: './assets/mobile/img/mdata/8.jpg',
+					title: '精品资源'
+				}
+			]
+		}
+		require('data')
+	</script>
+</body>
+
+</html>

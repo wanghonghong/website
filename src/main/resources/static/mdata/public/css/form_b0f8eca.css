@@ -1,0 +1,11 @@
+.ui-form{color:#8492A6;margin:0 auto}
+.ui-form .row{display:block;margin-bottom:20px}
+.ui-form .form-ctrl{display:block;padding:0 15px 0 40px;border:1px solid #D3DCE6}
+.ui-form .form-ctrl .iconfont{float:left;margin:7px 0 0 -30px}
+.ui-form .label{display:none;display:block\9;font-size:1.143em}
+.ui-form .ipt{width:100%;padding:10px 0;font-size:1.143em;border:0}
+.ui-form .btn-submit{font-size:1.25em;width:100%;padding:10px 0}
+.ui-form .tip{text-align:center}
+.ui-form .tip .iconfont{font-size:1.143em;margin-right:.5em}
+.ui-form .error{color:#FF4949}
+.ui-form .success{color:#13CE66}

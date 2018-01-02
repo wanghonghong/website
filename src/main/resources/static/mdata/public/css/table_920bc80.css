@@ -1,0 +1,10 @@
+.ui-table{color:#1F2D3D;width:100%;border-collapse:collapse;border:1px solid #E5E9F2;background-color:#fff}
+.ui-table.stripe tbody tr:nth-child(even){background-color:#fafafa}
+.ui-table.stripe tbody tr:nth-child(even):hover{background-color:#EFF2F7}
+.ui-table thead{background:#EFF2F7}
+.ui-table tr{-webkit-transition:background-color .25s ease;transition:background-color .25s ease}
+.ui-table th{padding:10px;border:1px solid #E5E9F2;font-weight:700}
+.ui-table th i{color:#20A0FF;cursor:pointer}
+.ui-table td{padding:10px;border:1px solid #E5E9F2}
+.ui-table tbody tr:hover{background-color:#EFF2F7}
+.ui-table .handle{color:#20A0FF;text-decoration:underline}

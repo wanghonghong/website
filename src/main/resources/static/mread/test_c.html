@@ -1,0 +1,1276 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	
+	<!-- header includes -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>网络综合设计实验 -试卷C</title>
+	<!-- <base href=""/> -->
+	<link href="common_files/css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="common_files/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/course.css" rel="stylesheet" type="text/css" />
+
+	<script>var video_root = "video/", columnid="2915";</script>
+	<script src="common_files/js/jquery-1.9.1.min.js"></script>
+	<script src="common_files/js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
+	<script src="common_files/js/json.js"></script>
+	<script src="common_files/js/common.js"></script>
+	<script src="js/course.js"></script>
+	<script src="common_files/js/bw_data.js"></script>
+	<script src="common_files/js/template.js"></script>
+	<script src="common_files/js/pinyin.js"></script>
+	
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script src="common_files/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+</head>
+<body class="introduction-bg ">
+	
+
+<!-- 通用头部 -->
+<div class="header header_in">
+	<div class="header_scope">
+		<div class="logo"></div>	
+		<div class="more"></div>
+		<div class="nav_container">
+			
+
+<!-- 通用头部 -->
+
+
+
+
+<ul class="nav">
+	<li id="nav_0"><a href="/">返回主页</a></li>
+	<li id="nav0"><a href="index.html">课程首页</a></li>
+	
+
+
+
+		<li id="nav0">
+			<a href="ke_cheng_jie_shao.html">课程信息</a>
+		</li>
+	
+		<li id="nav1">
+			<a href="jiao_shi_dao_yan.html">课程导学</a>
+		</li>
+	
+		<li id="nav2">
+			<a href="chapter_1_1.html">课程学习</a>
+		</li>
+	
+		<li id="nav3">
+			<a href="test_a.html">课程自测</a>
+		</li>
+	
+		<!--<li id="nav4">
+			<a href="zhuan_jia_jiang_zuo.html">拓展资源</a>
+		</li>-->
+	
+</ul>
+
+
+		</div>	
+	</div>	
+</div>
+
+
+
+
+
+
+	<div class="content">
+		<div class="scope">
+			<ul class="secBarTab">
+				
+
+					<li><a href="test_a.html">试卷A</a></li>
+				
+					<li><a href="test_b.html">试卷B</a></li>
+				
+					<li><a href="test_c.html">试卷C</a></li>
+				
+					<li><a href="test_d.html">试卷D</a></li>
+				
+			</ul>
+			<div class="t_topbox">
+				<div class="t_ta">
+					<span id="test_info"></span>
+				</div>
+				<div class="t_tb">
+					<span class="lf_shadow"></span>
+					<span class="rt_shadow"></span>
+				</div>
+			</div>
+			<script type="text/javascript">
+
+			    //初始时间
+			    var time = 0;
+			    var countTimer;
+			    $(document).ready(function(){
+			    	countTimer = setInterval(function(){
+				      time++;
+				      var m = parseInt(time/60);
+				      var s = time%60;
+				      $("#count_down").find("b").empty().html((m<10?("0"+m):m) +":" +(s<10?("0"+s):s));
+				    },1000);
+			    });
+
+
+			    function stopCount(){
+			    	clearInterval(countTimer);
+			    }
+
+		  </script>
+		  <div class="textBox">
+			  <div class="test_main">
+					<div class="inner">
+						<div class="test_c">
+							<div class="bw_exam" data-config="time:120">
+	<div class="bw_question_block" data-config="{type:0,score:20}">
+		<div class="bw_block_title">
+			{2}实验设计
+		</div>
+		<div class="bw_question" data-config="{ans:0}">
+			<div class="bw_ques">
+				<p>
+					实验三------网站功能规划
+				</p>
+				<p>
+					一、实验目的
+				</p>
+				<p>
+					根据网站定位功能规划，明确网站功能模块，结合信息架构进行功能布局。
+				</p>
+				<p>
+					二、实验内容与要求
+				</p>
+				<p>
+					1、确定网站功能定位与规划
+				</p>
+				<p>
+					2、网站功能模块的用例设计
+				</p>
+				<p>
+					3、网站功能布局
+				</p>
+				<p>
+					三、形成书写报告
+				</p>
+			</div>
+			<div class="bw_ans">
+				教育网站功能规划
+				<p>
+					一、网站建设主体目标：成为学员服务和交流的平台，对外展示的窗口。
+				</p>
+				<p>
+					二、主要功能：
+				</p>
+				<p>
+					1、项目介绍及课程展示
+				</p>
+				<p>
+					2、学员、教师、中心之间的交流互动
+				</p>
+				<p>
+					3、案例库
+				</p>
+				<p>
+					4、管理资讯平台
+				</p>
+				<p>
+					三、网站主页功能模块分为三大类：
+				</p>
+				<p>
+					1、置顶栏目：首页、项目介绍、在线报名、联系我们
+				</p>
+				<p>
+					2、主菜单分为四大版块：动态、管理论坛、案例库、互动
+				</p>
+				<p>
+					3、右边条：网站搜索、登陆区、杂志区、企业展台
+				</p>
+				<table class="cont_table" cellpadding="0" cellspacing="0">
+					<tbody>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									一级菜单
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									二级菜单
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									说明
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									功能要求
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									说明
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="55">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									在线报名
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									填写信息
+								</p>
+								<p>
+									后台即时提示有新信息
+								</p>
+								<p>
+									信息汇总
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									表单形式,简单提交功能。价格3000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="55">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									联系我们
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									留言板
+								</p>
+								<p>
+									后台即时提示有新信息
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									留言板功能，价格2000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="5" style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									项目介绍
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									项目简介
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									单页面介绍形式，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									武大高培中心简介
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									单页面介绍形式，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									课程设置
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									单页面介绍形式，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									师资介绍
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									单页面介绍形式，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									报名指南
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									单页面介绍形式，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="6" style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									动态
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									新闻
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									图文动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格4000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									论坛专题
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									论坛活动的各项资料：主题发言文稿、讨论对话实录、现场照片、来宾介绍、活动花絮等
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									图文动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									融合论坛系统，需自行注册和提供论坛备案证书，价格5000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									活动展示
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									各项活动展示：联欢会、参观考察、游学
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									图文动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									课程展示/精辟论述
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									摘录老师授课中的精辟论述
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									图文动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									课程展示/精彩对话
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									摘录授课中的学员与老师之间的精彩对话
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									图文动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									公告板
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									课程、活动、论坛的公告
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									图文动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格2500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="5" style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									管理论坛
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									管理知新
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									最新的管理类的文章论述
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									图文动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									管理PK台
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									提出一些管理方面的问题及有针对性地观点（如是先做大还是先做强），让学员发表意见
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									跟帖回复
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									留言互动，建议后期制作，价格5000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									总裁调查
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									就某一题目开展调查，即可以使管理方面，也可以是其它方面（如你所用的手机品牌？）
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									点击选项
+								</p>
+								<p>
+									汇总统计
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									在线调查功能，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									每周一问
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									每周发布一个管理方面的问题，由学员、老师给出解答一件。欢迎学员提出问题
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									跟帖回复
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									留言互动功能，价格3000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									书籍推介
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									最新或经典的管理类书籍介绍，评价。可考虑代购。
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									跟帖回复
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									文章互动功能，价格5000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="4" style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									案例库
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									最新入库
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									跟帖回复
+								</p>
+								<p>
+									汇总统计
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									最热案例
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									汇总统计
+								</p>
+								<p>
+									自动更新
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									最新评论
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									自动更新
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻评论功能，价格4000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									提交案例
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									学员提交案例，后台经审核整理后发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									填写案例
+								</p>
+								<p>
+									后台即时提示有新案例
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									留言板功能，价格3000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="5" style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									互动区
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									教师专栏
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									邀请老师开设专栏，刊载文章、著述，解答学员问题
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									跟帖回复
+								</p>
+								<p>
+									提交问题
+								</p>
+								<p>
+									后台即时提示
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									新闻动态发布，价格4000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									学员博客
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									学员可开设博客，展示自我
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									暂无此功能，后期制作。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									群组活动
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									引导学员组成各类跨班级的群组（公益类、运动类、艺术鉴赏、行业类、管理专题类），开展活动交流
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									短信通知
+								</p>
+								<p>
+									跟帖回复
+								</p>
+								<p>
+									后台即时提示
+								</p>
+								<p>
+									信息汇总
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									暂无此功能，后期制作。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									QQ群
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									申请QQ群：项目、班级
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									网页边缘qq群点击聊天，500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									资源整合
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									学员提交，后台经审核整理后发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									跟帖回复
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									留言板功能，价格3000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="3" style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									杂志
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									电子周刊
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									每周一刊，通过电子邮件向许愿发送
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									在线阅读
+								</p>
+								<p>
+									下载
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									暂无此功能，后期制作。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									实体杂志
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									月或双月刊
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									在线阅读
+								</p>
+								<p>
+									下载
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									暂无此功能，后期制作。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									在线订阅
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									填写订阅表
+								</p>
+								<p>
+									后台即时提示
+								</p>
+								<p>
+									信息汇总
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									暂无此功能，后期制作。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="5" style="border:solid windowtext 1.0pt;" width="55">
+								<p>
+									学员服务区（登陆后进入）
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									课程安排
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									短信通知
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									会员登录及课程管理，价格5000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									资料课件下载
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+								<p>
+									在线阅读
+								</p>
+								<p>
+									下载
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									上传下载功能，价格2000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									提交作业
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									上传文件
+								</p>
+								<p>
+									后台即时提示
+								</p>
+								<p>
+									文件汇总
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									上传文件功能，价格3000元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									意见建议
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									填写信息
+								</p>
+								<p>
+									后台即时提示
+								</p>
+								<p>
+									信息汇总
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									留言板功能，价格1500元。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									积分管理
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									自动更新
+								</p>
+								<p>
+									积分查询
+								</p>
+								<p>
+									积分排名
+								</p>
+								<p>
+									后台汇总
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									暂无此功能，后期制作。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="55">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+								<p>
+									企业展台
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+								<p>
+									供学员进行企业展示，可考虑收费
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+								<p>
+									动态发布
+								</p>
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+								<p>
+									暂无此功能，后期制作。
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="55">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+							</td>
+						</tr>
+						<tr>
+							<td style="border:solid windowtext 1.0pt;" width="55">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="57">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="128">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" width="130">
+							</td>
+							<td style="border:solid windowtext 1.0pt;" valign="top" width="130">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>
+					四、网站采用会员制，除项目介绍版块和新闻动态外，其它内容，游客只能看见标题和简要介绍，会员登陆后才可看见全部内容。
+				</p>
+				<p>
+					五、视频功能
+				</p>
+				<p>
+					前期暂不考虑，后期如有需要再增加。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+							<script>var exam = bw.getExamData();
+							$("#test_info").html("本套测试题共有"+ exam.blocks.length +"个部分，"+ exam.count +"道题。");
+							//console.log(exam);</script>
+							<script id="js_tpl_1" type="text/html">
+								<ul class="old_ul">
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<li><%= exam.blocks[i].title.replace(/（.*?）/,'').replace(/\(.*?\)/,'') %></li>
+									<% } %>
+								</ul>
+
+								<div>
+									<% for(var i=0; i<exam.blocks.length; i++){ %>
+										<div class='tab'>
+											<h1><%= "一二三四五六七".substr(i, 1) %>、<%= exam.blocks[i].title %></h1>
+
+
+											<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+												<div class='questionbox' data-block-index='<%= i %>' data-ques-index='<%= n %>' data-type='<%= exam.blocks[i].type %>'>
+													<div class='question f-cb'> <!-- begin question -->
+														<div class='questionPos'><%= exam.index() %></div>
+														<div class='questionCon'><%= exam.blocks[i].questions[n].ques %></div>	
+													</div><!-- end question -->
+
+
+													<% if(exam.blocks[i].type == XUAN_ZE){ %>
+														<div class='question_choice'>
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m ++){ %>
+																	<label for="ans_<%= i %>_<%= n %>_<%= m %>">
+																		<li class='f-cb'>
+																			<div class='optionPos'><%= "ABCDEFG".substr(m, 1) %></div>
+																			<div class='optionCon'><%= exam.blocks[i].questions[n].ans[m] %></div>
+																		</li>
+																	</label>
+																<% } %>
+															</ul>
+														</div><!-- end question_choice -->
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < exam.blocks[i].questions[n].ans.length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "ABCDEFG".substr(m, 1) %>">
+																		<label for=""><%= "ABCDEFG".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>													
+													<% } %>
+
+													<% if(exam.blocks[i].type == PAN_DUAN){ %>
+														<div class="select_choice f-cb">
+															<ul>
+																<% for(var m = 0; m < ['√','×'].length; m++){ %>
+																	<li>	
+																		<input type="radio" id="ans_<%= i %>_<%= n %>_<%= m %>" name="ans_<%= i %>_<%= n %>" value="<%= "√×".substr(m, 1) %>">
+																		<label for=""><%= "√×".substr(m, 1) %></label>
+																	</li>
+																<% } %>
+															</ul>
+														</div>
+													<% } %>
+
+													<% if(exam.blocks[i].type == WEN_DA){ %>
+														<div class="select_choice f-cb">
+															<textarea></textarea>
+														</div>
+													<% } %>
+												</div><!-- end questionbox -->
+											<% } %>
+										</div>
+									<% } %>	<!-- end blocks -->
+								</div>
+							</script><script>document.write(template.render('js_tpl_1'));</script>
+							<script type="text/javascript">
+								$(".old_ul").appendTo(".t_ta");
+							</script>
+						</div>
+					</div>
+				</div>
+				<script>exam.idx = 1;</script>
+				<script id="js_tpl_2" type="text/html">
+			  	<div class="test_sidelist">
+						<div class="inner">
+							<p id="count_down">
+							  已用时：
+							  <b>00:00</b>
+							</p>
+							<ul>
+								<% for(var i=0; i<exam.blocks.length; i++){ %>
+								  <li class="li_fi">
+								    <a href="###"><%= exam.blocks[i].title %></a>
+								    <ul>
+								    	<% for (var n =0; n < exam.blocks[i].questions.length; n++){ %>
+								      	<li class="white question_num  question_num_<%= i %>_<%= n %>"><a href="###"><%= exam.index() %></a></li>
+								      <% } %>
+								    </ul>
+								  </li>
+							  <% } %>
+							</ul>
+							<p class="sub_btn">
+							  <input type="button" class="button white submit" value="提交" onclick="stopCount();exam.check()">
+							  <input type="button" class="button white reset" value="重置" onclick="window.location.reload()">	
+							</p>
+						</div>
+		 			</div>
+		 		</script><script>document.write(template.render('js_tpl_2'));</script>
+		 	</div>
+		</div>
+	</div>
+
+	
+
+<!-- 页脚内容 -->
+<div class="footer">
+	<p>&copy 2014-2017 <a href="http://www.zznet.info/" target="_blank"> 卓智网络科技有限公司</a> 版权所有</p>
+</div>
+	<div class="tool">
+	<ul class="toolpack">
+		<li><a href="###">信息反馈</a></li>
+		<li><a href="dictionary.html">课程词典</a></li>
+		<li><a href="###">课程笔记</a></li>
+		<li><a href="###">课程书签</a></li>
+	</ul>
+</div>
+	<a href="#" class="top">TOP</a>
+</body>
+</html>
+
+
+
+
+
+
+

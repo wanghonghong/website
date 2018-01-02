@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/1999/xlink" 
+	xmlns="http://www.w3.org/1999/xlink" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="IMS Xlink 1.0"
+	elementFormDefault="qualified"
+	attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation>
+			XSD Data File Information
+			-------------------------
+			Author:       Colin Smythe
+			Date:         15th November, 2005
+			Version:      0.1
+			Status:       Draft
+			Description:  This is the IMS version of the Xlink specification control XSD. 
+						  This was developed originally as part of the IMS CP v1.2 activity.
+						  The XLinks features supported in this XSD are:
+			
+						  (1) Href
+						  (2) Type						  
+			
+			History:      This is version 1 of this XSD.  This XSD was hand-generated.
+			
+			Copyright:    2005 (c) IMS Global Learning Consortium Inc.  All Rights Reserved.
+						  IMS Global Learning Consortium, Inc. (IMS) is publishing the information
+						  contained in this binding ("Specification") for purposes of scientific
+						  experimental and scholarly collaboration only.  IMS makes no warranty or 
+						  representation regarding the accuracy or completeness of the Specification.
+						  This material is provided on an "As Is" and "As Available basis".
+						  The Specification is at all times subject to change and revision without
+						  notice. It is your sole responsibility to evaluate the usefulness, accuracy
+						  and completeness of the Specification as it relates to you.  IMS would
+						  appreciate receiving your comments and suggestions.  Please contact IMS
+						  through our website at: http://www.imsglobal.org.
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:attribute name="href" type="xs:anyURI">
+		<xs:annotation>
+			<xs:documentation>Refers to universal xlink:type attribute</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	
+	<xs:attribute name="type" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Refers to xlink:href attribute</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	
+</xs:schema>

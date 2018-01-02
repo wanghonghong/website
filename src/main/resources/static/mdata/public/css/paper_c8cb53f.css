@@ -1,0 +1,44 @@
+.ui-paper{padding:0}
+.ui-paper .ui-type{height:45px;line-height:45px;background-color:#EFF2F7;margin-top:20px;border-radius:5px;padding:0 20px;font-size:1.143em}
+.ui-answers{z-index:1;overflow-x:hidden;overflow-y:scroll}
+.ui-answers::-webkit-scrollbar{width:10px;height:10px;background-color:transparent}
+.ui-answers::-webkit-scrollbar-thumb{background-color:#E5E9F2;border-radius:5px}
+.ui-answers::-webkit-scrollbar-thumb:hover{background-color:#e8ecf4}
+.ui-answers::-webkit-scrollbar-thumb:active{background-color:#e2e6f0}
+.ui-answers .ui-title{font-size:1.143em;padding:5px 10px;font-weight:700}
+.ui-answers .group{color:#8492A6;margin-bottom:20px}
+.ui-answers .group:last-child{margin-bottom:0}
+.ui-answers.fixed{position:fixed}
+.ui-answers .wrap{padding:15px}
+.ui-answers .title{font-size:1.143em;margin-bottom:10px}
+.ui-answers .answer{margin-right:-10px;line-height:26px;width:320px}
+.ui-answers .answer a{display:inline-block;color:#475669;text-align:center;width:26px;height:26px;border:1px solid #C0CCDA;margin:0 6px 10px 0;background-color:#FFF;border-radius:3px}
+.ui-answers .answer a:hover{color:#20A0FF;border-color:#20A0FF}
+.ui-answers .answer a.done,.ui-answers .answer a.right{color:#FFF;background-color:#23d1c1;border-color:#23d1c1}
+.ui-answers .answer a.mark{color:#FFF;background-color:#F7BA2A;border-color:#F7BA2A}
+.ui-answers .answer a.wrong{color:#FFF;background-color:#FF4949;border-color:#FF4949}
+.ui-questions .question{position:relative;padding:20px 20px 20px 100px;border-bottom:1px dashed #99A9BF}
+.ui-questions .action{position:absolute;width:120px;top:20px;right:20px}
+.ui-questions .action .btn{width:100%}
+.ui-questions .action i{margin-right:3px}
+.ui-questions .title{padding:5px 150px 5px 0;margin-bottom:10px}
+.ui-questions h3{font-size:1.143em}
+.ui-questions .num{position:absolute;left:0;top:12px;width:90px;font-size:50px;line-height:1;font-weight:700;color:#99A9BF;text-align:center}
+.ui-questions .content{position:relative}
+.ui-questions .content.has-pic{padding-right:280px}
+.ui-questions .choose{list-style-type:upper-alpha;padding-left:50px}
+.ui-questions .choose label{display:block;padding:3px 5px;cursor:pointer}
+.ui-questions .choose label:hover{background-color:#EFF2F7}
+.ui-questions .choose .pick{float:left;margin:3px 0 0 -50px}
+.ui-questions .choose .iconfont{font-size:1.25em;line-height:1;vertical-align:text-top}
+.ui-questions ul.choose{padding-left:30px}
+.ui-questions ul.choose .pick{margin-left:-30px}
+.ui-questions .picture{position:absolute;right:0;top:0;width:250px;height:100%;text-align:center}
+.ui-questions .picture img{max-width:100%;max-height:150px;cursor:pointer}
+.ui-questions .error{background-color:#f9ebeb}
+.ui-questions .error .choose label:hover{background-color:#f2dede}
+.ui-questions.view .title{padding-right:0}
+.ui-questions.view .choose li{padding:3px 5px}
+ol.ui-questions{padding-left:2em}
+.ui-btns{margin-top:40px;text-align:right;padding:0 20px}
+.ui-btns .btn{width:120px;margin-left:20px}

@@ -1,0 +1,22 @@
+.ui-topnav{height:66px;background-color:#20A0FF}
+.ui-topnav.fulltopnav .nav-container{max-width:none;margin:0 auto;padding-right:20px}
+.ui-topnav .nav-container{height:66px;position:fixed;z-index:99;top:0;width:100%;background-color:#20A0FF}
+.ui-topnav .nav-fullcontainer{max-width:none}
+.ui-topnav .left{float:left;margin:8px 0 0 50px}
+.ui-topnav .logo{width:50px;height:50px;display:inline-block;vertical-align:middle}
+.ui-topnav .title{font-size:20px;color:#FFF;display:inline-block;vertical-align:middle;font-weight:700;margin-left:10px}
+.ui-topnav .right{color:#FFF;float:right;padding:12px 10px;position:relative}
+.ui-topnav .right:hover .dropdown{display:block}
+.ui-topnav .avatar{padding:0 6px 0 10px;width:36px;height:36px;border-radius:50%}
+.ui-topnav .info{text-align:right}
+.ui-topnav .info>span{display:block}
+.ui-topnav .info,.ui-topnav .avatar,.ui-topnav .iconarrow{display:inline-block;vertical-align:middle}
+.ui-topnav .help,.ui-topnav .back{display:inline-block;padding-right:20px;color:#fff;font-size:1.143em;margin-top:10px}
+.ui-topnav .help .iconfont,.ui-topnav .back .iconfont{margin-right:5px}
+.ui-topnav .dropdown{display:none;width:136px;position:absolute;top:100%;right:0;background:#EFF2F7}
+.ui-topnav .dropdown .triangle{position:absolute;top:-10px;left:50%;width:0;height:0;border-bottom:10px solid #FFF;border-left:10px solid transparent}
+.ui-topnav .dropdown .box>li{color:#324057;margin:5px 0}
+.ui-topnav .dropdown .box .exit{margin:0 10px;display:inline-block}
+.ui-topnav .dropdown .droplist{padding:5px 0;display:block}
+.ui-topnav .dropdown .droplist:hover{background:#20A0FF;color:#FFF}
+.ui-topnav+.viewport .ui-aside{top:66px}

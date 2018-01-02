@@ -1,0 +1,20 @@
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+ul,ul>li,dl,dt,dd{list-style:none}
+ol{padding-left:1.5em}
+button,input,select,textarea{font-size:100%;margin:0;outline:0}
+i,cite,em,var{font-style:normal}
+img,embed,iframe,object,audio,video{height:auto;max-width:100%}
+iframe{border:0}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0;text-align:left}
+pre,tt,code,kbd,samp{font-family:Consolas,'Courier New',monospace,sans-serif}
+body{color:#333;font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;font-size:14px;line-height:1.5714;background-color:#fff}
+.bg-white{background-color:#fff}
+a{color:#333;outline:0;text-decoration:none}
+a:hover{color:#20A0FF;outline:0}
+.c:before,.c:after{display:table;content:''}
+.c:after{clear:both}
+.c{*zoom:1}
+.clear{clear:both}
